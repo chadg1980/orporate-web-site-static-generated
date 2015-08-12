@@ -1,3 +1,9 @@
+
+Responsive static web site for corporate pages
+
+http://healthslate.com
+
+
 # README #
 
 Use metalsmith with custom plugin to read video hierrachy from Contentful and create static pages for low end browser supported video player pages
