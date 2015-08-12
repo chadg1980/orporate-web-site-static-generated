@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/****Ipad Landscape 1024 Container 970 ****/
+	h2{ font-size:36px;}
+	h3{ font-size:22px;}
+	.slider h2{ font-size:28px;}
+	a.btns{ font-size:26px;}
+	.columnbox{ font-size:15px;}
+	.slidrbottom_caption{ font-size:30px;}
+	.footernav ul li{ padding:0px 29px;}
+	.widgetbox{ font-size:15px; min-height:292px;}
+	.widgetbox h3{ font-size:23px;}
+}
+   
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/****Ipad Portrait 768 Container 750 ****/
+	h2{ font-size:27px;}
+	.slider h2{ font-size:20px;}
+	a.btns{ font-size:18px;}
+	a.btns:after{ background-size:28px 28px;  width:28px; height:28px;}
+	.slidertop_caption{ padding-left:50px; padding-right:50px;}
+	.slidrbottom_caption{ font-size:20px;}
+	.columnbox{ margin:0px 10px}
+	.widgetbox{ padding-left:16px; padding-right:16px; font-size:15px; min-height:335px;}
+	.widgetbox h3{  font-size:20px;}
+	.footernav ul li{ padding-left:20px; padding-right:20px;}
+	.footernav ul li a{ font-size:20px;}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/****Mobile Landscape 480 Container 100% ****/
+	body{ font-size:15px;}
+	h2{ font-size:25px;}
+	h3{ font-size:20px;}
+	.container {width:480px;}
+	.logo{ width:228px;}
+	.slidertop_caption{ padding:35px 10px}
+	.slider h2{ font-size:18px;}
+	.slidrbottom_caption{ font-size:14px; padding:4px 5px;}	
+	a.btns{ font-size:15px;}
+	a.btns:after{ background-size:28px 28px;  width:28px; height:28px;}
+	.columnbox{ font-size:15px;}
+	.columnbox{ max-width:326px; margin:0px auto; padding-bottom:20px;}
+	.box_caption{ min-height:100%; padding:20px;}
+	.third_section{min-height:220px;}
+	.toolsbox span{ height:auto;}
+	.widgetbox{ padding:20px; margin:0 0 20px;}
+	.footernav ul li{ padding:0px 5px;}
+	.footernav ul li a{ font-size:15px;}
+	.fifth_section{ padding:45px 0px 25px;}
+	.footer_left{ margin-bottom:20px;}
+}
+
+@media only screen and (max-width: 479px) {
+	/****Mobile Portrait 320 ****/
+	.container {width:320px;}
+	.logo{ width:180px;}
+	h2{ font-size:22px;}
+	.slider h2{ font-size:13px; margin:0 0 10px;}
+	.slidrbottom_caption{ font-size:13px;}
+	a.btns{ font-size:13px;}
+	a.btns:after{ background-size:14px 14px;  width:14px; height:14px;}
+	a.btns::after{ margin:0 0 -3px 6px;}
+	.slidertop_caption a.btns{ max-width:140px; margin:0px auto; display:block;}
+	.header{ padding:20px 0;}
+	.toolsbox{ font-size:13px; padding-bottom:15px;}
+	.toolswrap{ padding-bottom:25px;}
+	.footernav ul li{ float:none; padding:0px; text-align:center; margin:0 0 5px;}
+	.footernav{ margin-bottom:20px;}
+	.footer_left,.footer_main{ text-align:center;}
+}

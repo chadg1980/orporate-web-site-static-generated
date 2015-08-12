@@ -1,0 +1,5 @@
+{{> header}}
+TEMPLATE A
+{{&contents}}
+
+{{> footer}}
