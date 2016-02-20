@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1099px)
+{
+    p                          {font-size: 26px;line-height: 30px;}
+    
+    .logo                      {  position: relative;}
+    .logo a                    {width: 210px;display: block; margin: 0 auto;}
+    .logo a img                {width: 100%;   display: block;}
+    .container                 {width: 98%;}
+    .testimonial ul             {margin: 0;}
+    .testimonial_right p        { font-size: 18px; line-height: 25px;}
+    .banner-left h1            { line-height: 50px; font-size: 45px;}
+    .banner-left h2            {font-size: 30px;line-height: 30px;  padding: 0 0 20px;}    
+    .left-1                    {left: 0;   width: 60%;}
+    .left-1 > img              {display: block;  width: 100%;}
+    .right-1                   {width: 40%; padding: 40px 0 0; left: -25px;}
+    .right-1 p                 {  font-size: 24px;line-height: 30px;}
+    
+    .banner-title p            { font-size: 28px;}
+    .banner-title              {    padding: 10px 0;}
+    .footer-right              {  width: 60%;}
+    .footer-1                  {padding: 40px 15px 0;}
+    .banner-right              {width: 50%;}
+    .banner-right > img        { width: 300px;  margin: 0 auto;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px)
+{
+    p                          {font-size: 26px;line-height: 30px;}
+    
+    .logo                      {  position: relative;}
+    .logo a                    {width: 300px;display: block; margin: 0 auto;}
+    .logo a img                {width: 100%;   display: block;}
+    .container                 {width: 92%;}
+    .testimonial ul             {margin: 0; }
+    .testimonial ul li         {float: none; width: 100%; padding: 0;}
+    .testimonial .container    {width: 100%;}
+    .banner-left h1            { line-height: 55px; font-size: 50px; }
+    .banner-left h2            {font-size: 33px;line-height: 30px;  padding: 0 0 20px;}    
+    .left-1                    {left: 0; float: none;   width: 100%; padding: 20px 0 0;}
+    .left-1 > img              {display: block;  width: 100%;}
+    .right-1                   {width: 100%; float: none; padding: 40px 0 0; left: 0;}
+    .right-1 p                 {  font-size: 24px;line-height: 30px;}
+    
+    .banner-title p            { font-size: 28px;}
+    .banner-title              {padding: 10px 0;}
+    .workflow                  { background:#f1f2f2; padding: 30px 0 0;}
+    .testimonial               {padding: 45px 0 0;}
+    .workflow ul li            {width: 50%;}
+    .workflow p                {width: 90%; margin: 0 auto;}
+    ..right-1 p                {width: 90%; margin: 0 auto;}
+    .workflow .container       {width: 100%;}
+    .health_care .container    {width: 100%;}
+    .health_care ul li         {width: 50%;}
+    .footer-right              {  width: 100%; float: none; padding:20px 0 0;}
+    .footer-1                  { padding: 20px 0 0;}
+    .footer-link ul            {display: block; margin: 0;}
+    .footer-link ul li         {display: block; padding: 0 0 20px;}
+    .footer1-left              { width: 100%; text-align: center;float: none;}
+    .privacy_terms ul          {float: none; display: inline-block;}
+    .privacy_terms ul li       {float: none; display: inline-block;}
+    
+    .banner-left               { width: 100%; display: block;}
+    .banner-right              {width: 100%; display: block;}
+    .banner-text               {position: relative; padding: 35px 0 0;}
+    .banner-wrap               {display: block;}
+    .banner-text .container    {width: 100%; display: block;}
+    .banner-right img          {display: block; width: 100%;}
+    .desktop_banner            {display: none;}
+    .header                    {position: relative;}
+    .logo                      {left: 0;}
+
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:479px)
+{
+    p                          {font-size: 22px;line-height: 28px;}
+    h1                         { line-height: 35px;font-size: 35px;}
+    .testimonial ul             {margin: 0; }
+    .testimonial ul li         {float: none; width: 100%; padding: 0;}
+    .testimonial .container    {width: 100%;}
+    .logo                      { position: relative;}
+    .logo a                    {width: 250px;display: block; margin: 0 auto;}
+    .logo a img                {width: 100%;   display: block;}
+    .container                 {width: 92%;}
+    .workflow                  { background:#f1f2f2;}
+    .testimonial .container    {width: 100%;}
+    .testimonial ul li         { padding: 0;}
+    .banner-left h1            { line-height: 45px; font-size: 40px; }
+    .banner-left h2            {font-size: 26px;line-height: 30px;  padding: 0 0 20px;}  
+    .left-1                    {left: 0; float: none;   width: 100%; padding: 20px 0 0;}
+    .left-1 > img              {display: block;  width: 100%;}
+    .right-1                   {width: 100%; float: none; padding: 30px 0 0; left: 0;}
+    .right-1 p                 {  font-size: 22px;line-height: 28px;}
+    .applytojoin               {line-height: 45px;}
+    .banner-title p            { font-size: 22px; line-height: 30px;}
+    .banner-title              {    padding: 10px 0;}
+    .workflow                  {padding: 30px 0 0;}
+    .workflow ul li            {width: 50%;}
+    .workflow p                {width: 90%; margin: 0 auto;}
+    ..right-1 p                {width: 90%; margin: 0 auto;}
+    .workflow .container       {width: 100%;}
+    .workflow h1               { padding: 0 0 15px;}
+    .health_care               { padding: 25px 0 0;}
+    .health_care .container    {width: 100%;}
+    .health_care ul            {padding: 30px 0 0;}
+    .health_care ul li         {width: 50%;}
+    .health_care p             { width: 85%; margin: 0 auto;}
+    .footer-right              {  width: 100%; float: none; padding:20px 0 0;}
+    .footer-1                  { padding: 20px 0 0;}
+    .footer-link ul            {display: block; margin: 0;}
+    .footer-link ul li         {display: block; padding: 0 0 20px;}
+    .footer1-left              { width: 100%; text-align: center;float: none;}
+    .privacy_terms ul          {float: none; display: inline-block;}
+    .privacy_terms ul li       {float: none; display: inline-block;}  
+    .testimonial_right p       {font-size: 18px;line-height: 25px;}
+    .wrap-1                    { padding: 15px 0;}
+    .testimonial               {padding: 45px 0 0;}
+    
+    
+     .banner-left               { width: 100%; display: block;}
+    .banner-right              {width: 100%; display: block;}
+    .banner-text               {position: relative; padding: 35px 0 0;}
+    .banner-wrap               {display: block;}
+    .banner-text .container    {width: 100%; display: block;}
+    .banner-right img          {display: block; width: 100%;}
+    .desktop_banner            {display: none;}
+    .header                    {position: relative;}
+    .logo                      {left: 0;}
+
+}
+
+
