@@ -5965,3 +5965,5 @@ td.visible-print {
     display: none !important;
   }
 }
+
+ .errors                    {color:#900};  

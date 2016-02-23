@@ -39,9 +39,9 @@ body											{color:#b1b1b1; font-family: 'Roboto', sans-serif; font-size:12px
 /*-------------------------------------------*/
 
 /* ------------------ HEADER HERE -------------------*/
-.header										{position: absolute; left: 0; top:0; width: 100%; padding: 35px 0 0; z-index: 9;}
+.header										{position: absolute; left: 0; top:45px; width: 100%; padding: 35px 0 0; z-index: 9;}
 .logo										{  }
-.logo a                                     {display: block; text-align: center;}
+.logo a                                     {display: block; text-align: center;} 
 /* ---------------------------------------------------------*/
 
 
@@ -70,13 +70,26 @@ body											{color:#b1b1b1; font-family: 'Roboto', sans-serif; font-size:12px
                                              color: #ffffff; background:url(../images/arrow-1.png) no-repeat 185px center #8ab43f;padding: 0 40px 0 0; box-sizing:
                                             border-box;font-family: 'Roboto Condensed', sans-serif; }
 
-                                             
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-left:10px;
+    margin-top:10px;
+   
+}
 .banner-right                               {width: 480px;  display: table-cell; height: 100%;}
 
 .banner-title                               { background: #8ab43f; padding: 18px 0;}
 .banner-title p                             { font-size: 36px; font-weight: 500; line-height: 38px; text-transform: capitalize; color: #ffffff; text-align: center;}
 
-
+ .errors								    {color:#900};  
 .health_care                                { padding: 35px 0 0;}
 .health_care p                              { color: #535453; text-align: center; font-weight: 300;}
 .health_care ul                             {float: left; padding: 40px 0 0;}
