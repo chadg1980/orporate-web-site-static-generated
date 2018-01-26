@@ -14,6 +14,7 @@
 	.footernav ul li{ padding:0px 29px;}
 	.widgetbox{ font-size:15px; min-height:292px;}
 	.widgetbox h3{ font-size:23px;}
+	.list-inline{ display: flex; justify-content: center;}
 }
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -29,6 +30,8 @@
 	.widgetbox h3{  font-size:20px;}
 	.footernav ul li{ padding-left:20px; padding-right:20px;}
 	.footernav ul li a{ font-size:20px;}
+	.list-inline{ display: flex; justify-content: center;}
+	
 	
 }
 
@@ -50,10 +53,12 @@
 	.third_section{min-height:220px;}
 	.toolsbox span{ height:auto;}
 	.widgetbox{ padding:20px; margin:0 0 20px;}
+	.footernav ul{float:none; text-align:center; margin:0 0 5px;}
 	.footernav ul li{ padding:0px 5px;}
 	.footernav ul li a{ font-size:15px;}
 	.fifth_section{ padding:45px 0px 25px;}
 	.footer_left{ margin-bottom:20px;}
+	
 }
 
 @media only screen and (max-width: 479px) {
