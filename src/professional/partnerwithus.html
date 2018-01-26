@@ -75,22 +75,37 @@ template: layoutwithheadernodemo.html
                 
                 <!-- Partner with us form -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="partner">
-                        <form class="partner_with_us_form">
-                            <legend><center>Partner with Us</center></legend>
+                    
+                        <form id="contact-form" action="//formspree.io/info@healthslate.com" method="POST">
+                            <input type="hidden" name="_next" value="http://healthslate.com/thanks.html" />
+                            <input type="hidden" name="_subject" value="Partner With Us web request" />
+                            <div class="form-group">
+                                <legend>Partner with Us</legend>
+                                <div class="col-lg-6 col-centered">
+                                    <label for="partner_email">Enter your email for more information</label>
+                                    <div class="input-group">
+                                            
+                                            <input name="reply_to" class="emailInput form-control form-rounded" requiredid="partner_email" type="email" placeholder="email">
+                                            <span class="input-group-btn">
+                                                <input class="form-control submit" type="submit" value="Submit">
+                                            </span>
+                                    </div>
+                                </div>
                             
-                            <div class="col-xs-4">
-                                <input class="form-control form-rounded" id="partner_email" type="email" placeholder="email">
-                            </div>
-                            <select aria-placeholder="What are you interested in?">
-                                <option value="" disabled selected>Please select an option</option>
-                                <option value="consumer">Enrolling in HealthSlate (I’m a consumer)</option>
-                                <option value="member_support">Member support</option>
-                                <option value="health_plan">Offering HealthSlate  (I’m a health plan)</option>
-                                <option value="provider">Offering HealthSlate  (I’m a provider)</option>
-                            </select> 
+                                    
+                            
+                                <!-- Drop down to be finished later 
+                                <select aria-placeholder="What are you interested in?">
+                                    <option value="" disabled selected>Please select an option</option>
+                                    <option value="consumer">Enrolling in HealthSlate (I’m a consumer)</option>
+                                    <option value="member_support">Member support</option>
+                                    <option value="health_plan">Offering HealthSlate  (I’m a health plan)</option>
+                                    <option value="provider">Offering HealthSlate  (I’m a provider)</option>
+                                </select> 
+                            -->
+                        </div>
                     </form>
-                    </div>
+                    
                    
                 </div>
 

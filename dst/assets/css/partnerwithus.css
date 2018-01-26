@@ -3,3 +3,14 @@
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
+legend{
+    text-align: center; 
+}
+label{
+    font-weight: normal !important;
+    
+}
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}
