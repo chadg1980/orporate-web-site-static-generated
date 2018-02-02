@@ -5546,6 +5546,8 @@ td.visible-xs {
   }
 }
 @media (min-width: 1200px) {
+  .list-inline{ display: flex; justify-content: center;}
+
   .visible-xs.visible-lg {
     display: block !important;
   }
