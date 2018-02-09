@@ -27,6 +27,10 @@ label{
 .PWUend{
     margin-bottom: 10px;
 }
+.year_two_legend{
+    font-size: 80%;
+}
+
 
 .form-container {
     border: 1px solid #000000;
@@ -41,9 +45,10 @@ label{
     font-family: 'Helvetica Neue',Helvetica,sans-serif;
     text-decoration: none;
     vertical-align: middle;
-    min-width:300px;
+    min-width:200px;
     padding:20px;
     width:400px;
+    
     }
  .form-field {
     border: 1px solid #000000;
@@ -122,3 +127,4 @@ label{
     background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
     color: #fff;
     }
+    

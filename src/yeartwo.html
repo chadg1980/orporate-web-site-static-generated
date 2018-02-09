@@ -21,12 +21,12 @@ template: layoutwithheadernodemo.html
             <div class="row">
                 
                 <!-- Year form -->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="col-lg-6 col-centered">
+                
+                    <center>
                         <form class="form-container" form id="contact-form" action="//formspree.io/chadg+pwu@atozhealth.com" method="POST">
                             <input type="hidden" name="_next" value="http://healthslate.com/thanks.html" />
                             <input type="hidden" name="_subject" value="Year 2 request" />
-                            <legend>I want to be informed when year 2 is available</legend>
+                            <legend id="year_two_legend">Enter your email and we will notify you when your insurer authorizes a 2nd Year of HealthSlate.</legend>
                             <div class="form-title">Email</div>
                             <input placeholder="example@domain.com" class="form-field" type="email" name="email" required minlength="3" /><br />
                             <div class="submit-container">
@@ -34,8 +34,9 @@ template: layoutwithheadernodemo.html
                             </div>
                         
                         </form>
-                    </div>
-                </div>
+                    </center>
+                    
+                
             </div>
         </div>
     </div>
