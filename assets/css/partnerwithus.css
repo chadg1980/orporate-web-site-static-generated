@@ -27,6 +27,15 @@ label{
 .PWUend{
     margin-bottom: 10px;
 }
+
+.news_title{
+   
+    margin: 0px;
+}
+h5{
+    margin-bottom: 50px;
+}
+
 .year_two_legend{
     font-size: 80%;
 }
