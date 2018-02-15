@@ -37,10 +37,6 @@ nav div:first-child h1{
     padding: .8rem 0rem;
     text-align: center;
 }
-#footer{
-    background-color: green; 
-}
-
 nav div:first-child h1, nav ul{
     margin: 0;
 }
@@ -49,6 +45,26 @@ nav div:first-child h1, nav ul{
     
     background: white;
 }
+
+/* Footer */
+.footer{
+    background-color: green; 
+}
+.grayBox{
+    display:flex;
+    background: gray;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.item{
+    margin-left:5px;
+}
+
+
+
 
 /*Styling for larger devices*/
 @media only screen and (min-width:480px){
