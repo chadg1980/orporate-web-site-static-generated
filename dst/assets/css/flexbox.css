@@ -1,0 +1,110 @@
+
+body, html{
+    font-size: 100%;
+    font-family: "Roboto", "Open Sans";
+    background: lightgray;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    background: #FFF;
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    line-height:  1;
+}
+
+nav ul li{
+    border-bottom: 1px dotted #FFF;
+}
+/*styling logo*/
+
+nav div:first-child{
+    background: #FFF;
+}
+nav div:first-child h1{
+    line-height: 0;
+    padding: .8rem 0rem;
+    text-align: center;
+}
+#footer{
+    background-color: green; 
+}
+
+nav div:first-child h1, nav ul{
+    margin: 0;
+}
+#parterWithUs2{
+    height: 110px;
+    
+    background: white;
+}
+
+/*Styling for larger devices*/
+@media only screen and (min-width:480px){
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 8.4%;
+        padding-right: 8.4%;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        flex-wrap: wrap;
+        
+    }
+
+    nav div:first-child h1{
+        padding: 0;
+        margin: 0 1rem;
+    }
+    nav div:first-child img{
+        height: 40px;
+
+    }
+    nav ul li{
+        border-bottom: none; 
+        flex: 1 0 auto;
+        position: relative;
+        
+    }
+    nav ul li a{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        padding-bottom: 0; 
+    }
+    nav ul li a::after, nav ul li a::before{
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right:0;
+        width:0%;
+        height: 2px;
+        background: blue;
+        transition: ease-in-out;
+    }
+    nav ul li a::before{
+        left:0;
+    }
+    nav ul li a:hover::after, 
+    nav ul li a:hover::before{
+        width: 50%;
+    }
+
+}
