@@ -1,4 +1,4 @@
-
+/* full page */
 body, html{
     font-size: 100%;
     font-family: "Roboto", "Open Sans";
@@ -10,6 +10,8 @@ body, html{
     padding:0;
 }
 
+
+/* header */
 nav ul{
     list-style: none;
     padding: 0;
@@ -25,9 +27,9 @@ nav ul li a{
 }
 
 nav ul li{
-    border-bottom: 1px dotted #FFF;
+    border: 0.5px dotted #000;
 }
-/*styling logo*/
+/*Header -> Logo*/
 
 nav div:first-child{
     background: #FFF;
@@ -38,89 +40,187 @@ nav div:first-child h1{
     text-align: center;
 }
 nav div:first-child h1, nav ul{
-    margin: 0;
+    margin: 0.5px;
 }
-#parterWithUs2{
-    height: 110px;
-    
-    background: white;
-}
+
+
 
 /* Footer */
 .footer{
-    background-color: green; 
-}
-.grayBox{
     display:flex;
-    background: gray;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 32px;
-    padding-left: 20px;
-    padding-right: 20px;
+    flex-direction: column;
+    background: #81AA42;
 }
+.footer_content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #e4e7de;
+}
+
 .item{
-    margin-left:5px;
+    width: 40%;
+    padding: 4% 4%;
+}
+.nospace{
+    margin-top: 25px;;
+}
+.nospace h4{
+    margin-bottom: 0px;
+    font-weight: normal;
+
+}
+.nospace p{
+    margin-top: 0;
+}
+
+.baseline{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.baseline, .baseline a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 4%;
+}
+
+.footerlogo img{
+    max-width: 60%;
+}
+
+/* Body */
+#parterWithUs2{
+    height: 500px;
+    background: white;
 }
 
 
+    /*Styling for larger devices*/
+    @media only screen and (min-width:480px){
+        /* Header */
+        .header{
+            background: lightgray;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-top:3%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-bottom: 0;
+            background: white;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: none;
+            flex-wrap: wrap;
+        }
 
+        nav div:first-child h1{
+            padding: 0;
+            margin: 0 1rem;
+        }
 
-/*Styling for larger devices*/
-@media only screen and (min-width:480px){
-    
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        nav div:first-child img{
+            width: 160px;
+            margin-top: -15px;
+        }
+
+        nav ul li{
+            border-bottom: none; 
+            flex: 1 0 auto;
+            position: relative;
+            border: none;
+        }
+
+        nav ul li a{
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            padding-bottom: 0; 
+        }
+
+        nav ul li a::after, nav ul li a::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right:0;
+            width:0%;
+            height: 2px;
+            background: #81AA42;
+            transition: ease-in-out;
+        }
+
+        nav ul li a::before{
+            left:0;
+        }
+
+        nav ul li a:hover::after, 
+        nav ul li a:hover::before{
+            width: 50%;
+        }
+        
+    /*    Footer    */
+    .footer{
+        background-color: #81AA42;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
         padding-left: 8.4%;
         padding-right: 8.4%;
+        padding-bottom: 0;
     }
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: none;
+
+
+    .footer_content{
+        display:flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
+        background: #e4e7de;
+        margin-top: -100px;
+        
         
     }
 
-    nav div:first-child h1{
-        padding: 0;
-        margin: 0 1rem;
+    .item{
+        width: 40%;
+        padding: 4% 4%;
     }
-    nav div:first-child img{
-        height: 40px;
 
+    .baseline{
+        display: flex;
+        padding-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    nav ul li{
-        border-bottom: none; 
-        flex: 1 0 auto;
-        position: relative;
-        
-    }
-    nav ul li a{
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-        padding-bottom: 0; 
-    }
-    nav ul li a::after, nav ul li a::before{
 
-        content: "";
-        position: absolute;
-        bottom: 0;
-        right:0;
-        width:0%;
-        height: 2px;
-        background: blue;
-        transition: ease-in-out;
+    .baseline, .baseline a{
+        color: #FFF;
+        text-decoration: none;
     }
-    nav ul li a::before{
-        left:0;
+
+
+
+    .privacy{
+    width: 250px;
+    text-align: right;
+    padding-right: 0px; 
+    
     }
-    nav ul li a:hover::after, 
-    nav ul li a:hover::before{
-        width: 50%;
-    }
+
+    /* Body */
+    #parterWithUs2{
+        height: 500px;
+        background: white;
+        margin-left: 3%;
+        margin-right: 3%;
+}
 
 }
