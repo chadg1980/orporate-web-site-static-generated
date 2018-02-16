@@ -11,6 +11,8 @@ body, html{
 }
 
 
+
+
 /* header */
 nav ul{
     list-style: none;
@@ -99,6 +101,7 @@ nav div:first-child h1, nav ul{
 
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
+        
         /* Header */
         .header{
             background: lightgray;
@@ -191,7 +194,7 @@ nav div:first-child h1, nav ul{
 
     .item{
         width: 40%;
-        padding: 4% 4%;
+        padding: 3% 3%;
     }
 
     .baseline{
@@ -216,11 +219,50 @@ nav div:first-child h1, nav ul{
     }
 
     /* Body */
-    #parterWithUs2{
-        height: 500px;
+    .body{
+        background: lightgray;
+        min-height: 500px;
+        padding-left:3%;
+        padding-right:3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .row1{
+        display: flex;
         background: white;
-        margin-left: 3%;
-        margin-right: 3%;
-}
+        padding-left: 7%;
+        padding-right: 7%;
+
+    }
+    .title_left{
+        flex: 1;
+    }
+    .title_right{
+        padding-top: 40px;
+        flex:1;
+        
+    }
+    #contact-form{
+        background: lightgray;
+        padding: 20px 10px 20px 10px;
+        
+        
+    } 
+    .row2{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .row3{
+        background: white;
+        display: flex;
+        align-content: space-between;
+    }
+    .row3left{
+        flex: 1;
+        padding-left: 7%;
+    }
+    .row3right{
+        flex:1;
+    }
 
 }
