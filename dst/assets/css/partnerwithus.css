@@ -32,9 +32,16 @@ label{
    
     margin: 0px;
 }
-h5{
-    margin-bottom: 50px;
+
+
+.news_div > div{
+    border: 1px solid lightgray;
+    padding: 7px;
+    margin-bottom: 7px;
+    box-shadow: 2px 4px #D3D3D3;
+    
 }
+
 
 .year_two_legend{
     font-size: 80%;
