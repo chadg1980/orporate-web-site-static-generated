@@ -8,10 +8,8 @@ body, html{
 body, html{
     margin:0;
     padding:0;
+    
 }
-
-
-
 
 /* header */
 nav ul{
@@ -93,30 +91,43 @@ nav div:first-child h1, nav ul{
 }
 
 /* Body */
-#parterWithUs2{
+.body{
     height: 500px;
     background: white;
 }
+.pagetitle{
+    background: white;
+}
+.pagetitle h1{
+    color: #81AA42;
+    
+
+}
+
 
 
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
         
+        
         /* Header */
         .header{
             background: lightgray;
-            padding-left: 3%;
-            padding-right: 3%;
-            padding-top:3%;
+            margin-left: 32px;
+            margin-right: 32px;
+            margin-top:32px;
+            
+            
         }
         nav{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-left: 4%;
-            padding-right: 4%;
             padding-bottom: 0;
             background: white;
+            
+            padding-left: 40px;
+            padding-right: 40px;
         }
         nav ul {
             display: flex;
@@ -128,7 +139,7 @@ nav div:first-child h1, nav ul{
 
         nav div:first-child h1{
             padding: 0;
-            margin: 0 1rem;
+            
         }
 
         nav div:first-child img{
@@ -175,11 +186,11 @@ nav div:first-child h1, nav ul{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 8.4%;
-        padding-right: 8.4%;
+        padding-left: 72px;
+        padding-right: 72px;
         padding-bottom: 0;
-    }
 
+    }
 
     .footer_content{
         display:flex;
@@ -188,13 +199,15 @@ nav div:first-child h1, nav ul{
         justify-content: space-around;
         background: #e4e7de;
         margin-top: -100px;
+        padding-left: 0px;
+        padding-right: 0px;
         
         
     }
 
     .item{
-        width: 40%;
-        padding: 3% 3%;
+        max-width: 320px;
+        padding-left: 32px;
     }
 
     .baseline{
@@ -212,26 +225,39 @@ nav div:first-child h1, nav ul{
 
 
     .privacy{
-    width: 250px;
+    min-width: 300px;
     text-align: right;
     padding-right: 0px; 
     
     }
 
-    /* Body */
+    /* partner with us Body */
     .body{
         background: lightgray;
         min-height: 500px;
-        padding-left:3%;
-        padding-right:3%;
+        margin-right: 32px;
+        margin-left: 32px;
         display: flex;
         flex-direction: column;
+        
     }
+    .pagetitle{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .pagetitle h1{
+       
+        color: #81AA42;
+        
+
+    }
+    
     .row1{
         display: flex;
         background: white;
-        padding-left: 7%;
-        padding-right: 7%;
+        
+        padding-left: 40px;
+        padding-right: 40px;
 
     }
     .title_left{
@@ -245,9 +271,8 @@ nav div:first-child h1, nav ul{
     #contact-form{
         background: lightgray;
         padding: 20px 10px 20px 10px;
-        
-        
     } 
+
     .row2{
         display: flex;
         flex-wrap: nowrap;
@@ -256,10 +281,12 @@ nav div:first-child h1, nav ul{
         background: white;
         display: flex;
         align-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .row3left{
         flex: 1;
-        padding-left: 7%;
+        
     }
     .row3right{
         flex:1;
