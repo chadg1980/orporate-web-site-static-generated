@@ -2,7 +2,7 @@
 body, html{
     font-size: 100%;
     font-family: "Roboto", "Open Sans";
-    background: lightgray;
+    background: white;
 }
 
 body, html{
@@ -90,24 +90,37 @@ nav div:first-child h1, nav ul{
     max-width: 60%;
 }
 
-/* Body */
-.body{
-    height: 500px;
-    background: white;
-}
+/* Partner with Us Body */
+
 .pagetitle{
     background: white;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .pagetitle h1{
     color: #81AA42;
-    
-
-}
+ }
+ .row1_left p{
+     color: #81AA42;
+     padding-left: 8px;
+     padding-right: 8px;
+ }
 
 
 
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
+        #container{
+            max-width: 1200px;
+            background:lightgray;
+            margin: 0 auto;
+        }
+        
+        body, html{
+            font-size: 100%;
+            font-family: "Roboto", "Open Sans";
+            background: lightgray;
+        }
         
         
         /* Header */
@@ -135,6 +148,7 @@ nav div:first-child h1, nav ul{
             align-items: center;
             background: none;
             flex-wrap: wrap;
+            
         }
 
         nav div:first-child h1{
@@ -152,11 +166,12 @@ nav div:first-child h1, nav ul{
             flex: 1 0 auto;
             position: relative;
             border: none;
+            
         }
 
         nav ul li a{
-            padding-left: 0.8rem;
-            padding-right: 0.8rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
             padding-bottom: 0; 
         }
 
@@ -189,7 +204,6 @@ nav div:first-child h1, nav ul{
         padding-left: 72px;
         padding-right: 72px;
         padding-bottom: 0;
-
     }
 
     .footer_content{
@@ -201,8 +215,6 @@ nav div:first-child h1, nav ul{
         margin-top: -100px;
         padding-left: 0px;
         padding-right: 0px;
-        
-        
     }
 
     .item{
@@ -241,36 +253,37 @@ nav div:first-child h1, nav ul{
         flex-direction: column;
         
     }
+    
+    .pagetitle h1{
+        color: #81AA42;
+     }
     .pagetitle{
+        background: white;
         padding-left: 40px;
         padding-right: 40px;
     }
-    .pagetitle h1{
-       
-        color: #81AA42;
-        
-
-    }
-    
     .row1{
         display: flex;
-        background: white;
-        
-        padding-left: 40px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 40px; 
         padding-right: 40px;
-
+        background: white;
+    }    
+    .row1_left{
+        max-width: 420px;
     }
-    .title_left{
-        flex: 1;
-    }
-    .title_right{
-        padding-top: 40px;
-        flex:1;
+    .row1_right{
         
+        max-width: 420px;
+        display: flex;
+        justify-content: flex-end;
     }
-    #contact-form{
+   #contact-form{
+        max-width: 210px;
         background: lightgray;
         padding: 20px 10px 20px 10px;
+        
     } 
 
     .row2{
