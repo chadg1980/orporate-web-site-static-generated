@@ -439,8 +439,9 @@ padding-bottom: 12px;
     }
     .row3_left{
         background: white;
-        padding-left: 40px;
+        padding-left: 72px;
         color: #81AA42;
+        padding-right: 0px;
         flex: 1;
         margin-top: -25px;
         
@@ -451,8 +452,29 @@ padding-bottom: 12px;
         
     }
     .row4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         background: white;
         padding-left: 40px;
         padding-right: 40px;
+        padding-top: 50px;
+    }
+    .row4_item{
+        border: 1px solid red;
+    }
+    .row4_col1{
+        padding-top: 25px;
+        
+    }
+    .row4_col2 h2{
+        padding-top: 0px;
+    }
+    .row4_col2{
+        
+        max-width: 320px;
+    }
+    .row1_col3{
+        padding-right: 0px;
     }
 }
