@@ -126,6 +126,7 @@ nav div:first-child h1, nav ul{
  .row1_right{
      padding-left: 10px;
      padding-right: 10px;
+     z-index: 10;
 
  }
 
@@ -135,6 +136,8 @@ nav div:first-child h1, nav ul{
     background: #F6F6F4;
     padding: 20px 5px 20px 5px;
     border: 1px solid black;
+    margin-bottom: -25px;
+    
 } 
 .form_head{
 font-weight: bold;
@@ -162,7 +165,38 @@ padding-top: 12px;
 padding-bottom: 12px;
 
 }
+.row2{
+    width: 100%;
+    
+    background-image: url(../img/design2018/img_partner.png);
+    background-size: 100% 100%;
+    z-index: 0;
+}
+.row2 img{
+    visibility: hidden;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
 
+}
+
+.img_right{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.img_left{
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+    
 
 
 
@@ -262,6 +296,7 @@ padding-bottom: 12px;
         padding-left: 72px;
         padding-right: 72px;
         padding-bottom: 0;
+        
     }
 
     .footer_content{
@@ -328,9 +363,13 @@ padding-bottom: 12px;
         padding-left: 40px; 
         padding-right: 40px;
         background: white;
+        margin-bottom: -25px;
+        z-index: 1;
+       
     }    
     .row1_left{
         max-width: 420px;
+        
     }
     .row1_right{
         
@@ -339,12 +378,15 @@ padding-bottom: 12px;
         justify-content: flex-end;
     }
     /* Partner with Us Form */
-    #contact-form{
-        max-width: 220px;
-        background: #F6F6F4;
-        padding: 40px 10px 40px 10px;
-        border: 1px solid black;
-    } 
+ #contact-form{
+     margin-top: 20px;
+    max-width: 240px;
+    background: #F6F6F4;
+    padding: 25px 5px 25px 5px;
+    border: 1px solid black;
+    margin-bottom: -100px;
+    
+} 
     .form_head{
     font-weight: bold;
     padding: 0;
@@ -369,27 +411,48 @@ padding-bottom: 12px;
     border-radius: 25px;
     padding-top: 12px;
     padding-bottom: 12px;
-    
+
     }
-
-
+    /*    Row 2   */
     .row2{
-        display: flex;
-        flex-wrap: nowrap;
+        width: 100%;
+        background-image: url(../img/design2018/img_partner.png);
+        background-size: cover;
+        z-index: 0;
     }
+    .row2 img{
+        visibility: hidden;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+    /*     ROW 3   */
     .row3{
-        background: white;
+        background: transparent;
         display: flex;
         align-content: space-between;
         padding-left: 40px;
         padding-right: 40px;
+        background: white;
+        z-index: 1;
     }
-    .row3left{
+    .row3_left{
+        background: white;
+        padding-left: 40px;
+        color: #81AA42;
         flex: 1;
+        margin-top: -25px;
         
     }
-    .row3right{
-        flex:1;
-    }
 
+    .row3_right{
+        flex:1;
+        
+    }
+    .row4{
+        background: white;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
