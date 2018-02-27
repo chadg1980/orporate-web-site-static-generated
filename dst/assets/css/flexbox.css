@@ -8,7 +8,12 @@ body, html{
 body, html{
     margin:0;
     padding:0;
+}
+
+.graytop{
     
+    min-height: 25px;
+    background: #E5E4E5;
 }
 
 /* header */
@@ -30,20 +35,22 @@ nav ul li{
     border: 0.5px dotted #000;
 }
 /*Header -> Logo*/
-
-nav div:first-child{
-    background: #FFF;
+.logo{
+    margin-top: -20px;
+    padding-left:8px;
 }
+
+
 nav div:first-child h1{
     line-height: 0;
-    padding: .8rem 0rem;
-    text-align: center;
+    padding-left: 8px;
+    text-align: left;
+    
+    
 }
 nav div:first-child h1, nav ul{
     margin: 0.5px;
 }
-
-
 
 /* Footer */
 .footer{
@@ -69,7 +76,6 @@ nav div:first-child h1, nav ul{
 .nospace h4{
     margin-bottom: 0px;
     font-weight: normal;
-
 }
 .nospace p{
     margin-top: 0;
@@ -98,116 +104,155 @@ nav div:first-child h1, nav ul{
     margin-left: 8px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .pagetitle{
     background: white;
-    
-    
+    padding-bottom: 0px;
+    height: 100px;
 }
+
 .pagetitle h1{
-    color: #81AA42;
+    color: #688D27;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 900;
+    max-width: 50%;
+    padding-bottom: 0px;
+    
+ }
+
+ .row1{
+    display: flex;
+    flex-direction: column;
     padding-left: 8px;
     padding-right: 8px;
     
- }
- .row1{
-     display: flex;
-     flex-direction: column;
-     padding-left: 8px;
-     padding-right: 8px;
+}
+.row1_left{
+    padding-top: 0px;
+}
 
- }
- .row1_left p{
-     color: #81AA42;
-    
- }
+.row1_left p{
+     color: #688D27;;
+}
+
  .row1_right{
-     padding-left: 10px;
-     padding-right: 10px;
-     z-index: 10;
-
- }
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 10;
+}
 
  /* Partner with Us Form */
  #contact-form{
     max-width: 480px;
     background: #F6F6F4;
     padding: 20px 5px 20px 5px;
-    border: 1px solid black;
-    margin-bottom: -25px;
+    /*margin-bottom: -50px;*/
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
     
 } 
-.form_head{
-font-weight: bold;
-padding: 0;
-margin: 0;
-}
-.text_input{
-width: 95%;
-border: none;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 5px;
-margin-top: 15px;
-margin-bottom: 15px;
-}
-.submit{
-background-color:#81AA42;
-border: none;
-color: white;
-width:100%;
-font-size: 16px;
-font-weight: bold;
-border-radius: 25px;
-padding-top: 12px;
-padding-bottom: 12px;
 
-}
-.row2{
-    width: 100%;
-    
-    background-image: url(../img/design2018/img_partner.png);
-    background-size: 100% 100%;
-    z-index: 0;
-}
-.row2 img{
-    visibility: hidden;
-    max-width: 100%;
+.form_head{
+    font-weight: bold;
     padding: 0;
     margin: 0;
-
 }
 
-.img_right{
-    background: white;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    padding-right: 8px;
-
-}
-.img_left{
-    background: lightgray;
-    display: flex;
-    flex-direction: column;
-    padding-left: 8px;
-    padding-right: 8px;
+.text_input{
+    width: 95%;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.row4{
-    display: flex;
+.submit{
+    background-color:#81AA42;
+    border: none;
+    color: white;
+    width:100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/*TODO fix the full width image for mobile*/
+.row2{
+    display: none;
+   /* width: 100%;
+    background-image: url(../img/design2018/img_partner.png);
+    background-size: 100% 100%;
+    background-size: cover;*/
+    
+}
+
+.row2 img{
+    display: none;
+    /*visibility: hidden;
+    max-width: 100%;
+    padding-left: -10px;
+    padding-right: -10px;
+    margin: 0;*/
+}
+
+.row3_left h2{
+    color: #688D27;
+    font-weight: 900;
+    max-width: 50%;
+}
+
+.row5{
+    border: 1px solid red;
 }
 
 .row4 a {
     color: #81AA42;
     text-decoration: none;
+    
+}
+.row4 img{
+    padding-top: 20px;
 }
 
-
+.pwu_text{
+    font-weight: 300;
+    margin-top: 0px;
+}
+.section_head{
+    font-weight: 800;
+    margin-bottom: 0px; 
+}
+.img_right{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     
+}
+.img_left{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 50px;
+}
 
+.img_left > .col1{ order:3;}
+.img_left > .col2{ order:1;}
+.img_left > .col3{ order:2;}
 
 
     /*Styling for larger devices*/
@@ -216,6 +261,9 @@ padding-bottom: 12px;
             max-width: 1200px;
             background:lightgray;
             margin: 0 auto;
+        }
+        .graytop{
+            display: none;
         }
         
         body, html{
@@ -358,14 +406,17 @@ padding-bottom: 12px;
     }
     
     .pagetitle h1{
-        color: #81AA42;
+        color: #688D27;
         padding-left: 0px;
+        font-weight: 900;
         
      }
     .pagetitle{
         background: white;
         padding-left: 64px;
         padding-right: 64px;
+        height: 50px;
+        padding-bottom: 10px;
     }
     .row1{
         display: flex;
@@ -378,7 +429,8 @@ padding-bottom: 12px;
         z-index: 1;
        
     }    
-    .row1_left{
+    .row1_left p{
+        color: #688D27;
         max-width: 420px;
         
     }
@@ -389,13 +441,12 @@ padding-bottom: 12px;
         justify-content: flex-end;
     }
     /* Partner with Us Form */
- #contact-form{
-     margin-top: 20px;
-    max-width: 240px;
-    background: #F6F6F4;
-    padding: 25px 5px 25px 5px;
-    
-    margin-bottom: -100px;
+    #contact-form{
+        margin-top: 20px;
+        max-width: 240px;
+        background: #F6F6F4;
+        padding: 25px 5px 25px 5px;
+        margin-bottom: -100px;
     
 } 
     .form_head{
@@ -430,12 +481,14 @@ padding-bottom: 12px;
         background-image: url(../img/design2018/img_partner.png);
         background-size: cover;
         z-index: 0;
+        display:block;
     }
     .row2 img{
         visibility: hidden;
         max-width: 100%;
         padding: 0;
         margin: 0;
+        display: inline-block;
 
     }
     /*     ROW 3   */
@@ -444,45 +497,38 @@ padding-bottom: 12px;
         display: flex;
         align-content: space-between;
         padding-left: 64px;
-        padding-right: 64px;
+        padding-right: 50px;
         background: white;
         z-index: 1;
+        
     }
     .row3_left{
         background: white;
         flex: 1;
         margin-top: -25px;
-        
-        
-        
+        margin-left: 0;
+        max-width: 420px;
     }
+
     .row3_left h2{
        vertical-align: middle;
        text-align: center;
-       font-weight:bolder;
-       color: #81AA42;
-       background: white;
-       
-    }
-
-    .row3_right{
-        flex:1;
-        
+       font-weight: 900;
+       max-width: 100%;
+        background: white;
     }
 
     .pwu_text{
-        max-width: 360px;
+        max-width: 340px;
         padding-left: 32px;
+        padding-right: 32px;
     }
+
     .pwu_icon{
         padding-top: 25px;
         
     }
-    .section_head{
-        font-weight: 700;
-        
-    }
-
+    
     /* Proven Outcomes */
     .img_right{
         display: flex;
@@ -498,7 +544,10 @@ padding-bottom: 12px;
     .img_right div:last-child{
         margin-left: auto;
     }
-   
+   .row4{
+    display: flex;
+   }
+
     .row4_col2{
         padding-left:32px;
     }
