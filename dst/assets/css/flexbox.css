@@ -241,8 +241,8 @@ padding-bottom: 12px;
             padding-bottom: 0;
             background: white;
             
-            padding-left: 40px;
-            padding-right: 40px;
+            padding-left: 64px;
+            padding-right: 64px;
         }
         nav ul {
             display: flex;
@@ -359,19 +359,20 @@ padding-bottom: 12px;
     
     .pagetitle h1{
         color: #81AA42;
+        padding-left: 0px;
         
      }
     .pagetitle{
         background: white;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
     .row1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-left: 40px; 
-        padding-right: 40px;
+        padding-left: 64px; 
+        padding-right: 64px;
         background: white;
         margin-bottom: -25px;
         z-index: 1;
@@ -393,7 +394,7 @@ padding-bottom: 12px;
     max-width: 240px;
     background: #F6F6F4;
     padding: 25px 5px 25px 5px;
-    border: 1px solid black;
+    
     margin-bottom: -100px;
     
 } 
@@ -442,60 +443,88 @@ padding-bottom: 12px;
         background: transparent;
         display: flex;
         align-content: space-between;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 64px;
+        padding-right: 64px;
         background: white;
         z-index: 1;
     }
     .row3_left{
         background: white;
-        padding-left: 72px;
-        color: #81AA42;
-        padding-right: 0px;
         flex: 1;
         margin-top: -25px;
         
+        
+        
+    }
+    .row3_left h2{
+       vertical-align: middle;
+       text-align: center;
+       font-weight:bolder;
+       color: #81AA42;
+       background: white;
+       
     }
 
     .row3_right{
         flex:1;
         
     }
-    .row4{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background: white;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 50px;
-        width:100%
+
+    .pwu_text{
+        max-width: 360px;
+        padding-left: 32px;
     }
-    .row4_item{
-        border: 1px solid red;
-    }
-    .row4_col1{
+    .pwu_icon{
         padding-top: 25px;
         
     }
-    .row4_col2 h2{
-        padding-top: 0px;
-    }
-    .pwu_text{
+    .section_head{
+        font-weight: 700;
         
-        max-width: 320px;
     }
+
+    /* Proven Outcomes */
+    .img_right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: white;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        
+    }
+    .img_right div:last-child{
+        margin-left: auto;
+    }
+   
+    .row4_col2{
+        padding-left:32px;
+    }
+    
     .row4_col3{
         padding-right: 0px;
     }
-    .row5{
+    /* Leveraging Your Budget*/
+    .img_left{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         background: #F6F6F6;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 64px;
+        padding-right: 64px;
         padding-top: 50px;
+        padding-bottom: 50px;
     }
+    
+    .img_left div:first-child{
+        margin-right: auto;
+    }
+    .row7{
+        padding-bottom: 125px;
+        
+    }
+    
 
 }
