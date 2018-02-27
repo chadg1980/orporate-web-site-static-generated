@@ -60,19 +60,16 @@ nav div:first-child h1, nav ul{
 }
 .footer_content{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
     background: #e4e7de;
 }
 
 .item{
-    width: 40%;
+    
     padding: 4% 4%;
 }
-.nospace{
-    margin-top: 25px;;
-}
+
 .nospace h4{
     margin-bottom: 0px;
     font-weight: normal;
@@ -83,6 +80,7 @@ nav div:first-child h1, nav ul{
 
 .baseline{
     display: flex;
+    flex-direction: row;
     flex-flow: wrap;
     justify-content: space-between;
 }
@@ -303,7 +301,6 @@ nav div:first-child h1, nav ul{
 
         nav div:first-child h1{
             padding: 0;
-            
         }
 
         nav div:first-child img{
@@ -316,7 +313,6 @@ nav div:first-child h1, nav ul{
             flex: 1 0 auto;
             position: relative;
             border: none;
-            
         }
 
         nav ul li a{
@@ -345,235 +341,232 @@ nav div:first-child h1, nav ul{
             width: 50%;
         }
         
-    /*    Footer    */
-    .footer{
-        background-color: #81AA42;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 72px;
-        padding-right: 72px;
-        padding-bottom: 0;
+        /*    Footer    */
+        .footer{
+            background-color: #81AA42;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 72px;
+            padding-right: 72px;
+            padding-bottom: 0;
+            
+        }
+
+        .footer_content{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background: #e4e7de;
+            margin-top: -100px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .item{
+            max-width: 320px;
+            padding-left: 32px;
+        }
+
+        .baseline{
+            display: flex;
+            padding-top: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .baseline, .baseline a{
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        .privacy{
+            min-width: 300px;
+            text-align: right;
+            padding-right: 0px; 
         
-    }
+        }
 
-    .footer_content{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background: #e4e7de;
-        margin-top: -100px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .item{
-        max-width: 320px;
-        padding-left: 32px;
-    }
-
-    .baseline{
-        display: flex;
-        padding-top: 25px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .baseline, .baseline a{
-        color: #FFF;
-        text-decoration: none;
-    }
-
-
-
-    .privacy{
-    min-width: 300px;
-    text-align: right;
-    padding-right: 0px; 
-    
-    }
-
-    /* partner with us Body */
-    .body{
-        background: lightgray;
-        min-height: 500px;
-        margin-right: 32px;
-        margin-left: 32px;
-        display: flex;
-        flex-direction: column;
+        /* partner with us Body */
+        .body{
+            background: lightgray;
+            min-height: 500px;
+            margin-right: 32px;
+            margin-left: 32px;
+            display: flex;
+            flex-direction: column;
+            
+        }
         
-    }
-    
-    .pagetitle h1{
-        color: #688D27;
-        padding-left: 0px;
-        font-weight: 900;
-        
-     }
-    .pagetitle{
-        background: white;
-        padding-left: 64px;
-        padding-right: 64px;
-        height: 50px;
-        padding-bottom: 10px;
-    }
-    .row1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 64px; 
-        padding-right: 64px;
-        background: white;
-        margin-bottom: -25px;
-        z-index: 1;
-       
-    }    
-    .row1_left p{
-        color: #688D27;
-        max-width: 420px;
-        
-    }
-    .row1_right{
-        
-        max-width: 420px;
-        display: flex;
-        justify-content: flex-end;
-    }
-    /* Partner with Us Form */
-    #contact-form{
-        margin-top: 20px;
-        max-width: 240px;
-        background: #F6F6F4;
-        padding: 25px 5px 25px 5px;
-        margin-bottom: -100px;
-    
-} 
-    .form_head{
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-    }
-    .text_input{
-    width: 95%;
-    border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    }
-    .submit{
-    background-color:#81AA42;
-    border: none;
-    color: white;
-    width:100%;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 25px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+        .pagetitle h1{
+            color: #688D27;
+            padding-left: 0px;
+            font-weight: 900;
+        }
 
-    }
-    /*    Row 2   */
-    .row2{
-        width: 100%;
-        background-image: url(../img/design2018/img_partner.png);
-        background-size: cover;
-        z-index: 0;
-        display:block;
-    }
-    .row2 img{
-        visibility: hidden;
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-        display: inline-block;
+        .pagetitle{
+            background: white;
+            padding-left: 64px;
+            padding-right: 64px;
+            height: 50px;
+            padding-bottom: 10px;
+        }
 
-    }
-    /*     ROW 3   */
-    .row3{
-        background: transparent;
-        display: flex;
-        align-content: space-between;
-        padding-left: 64px;
-        padding-right: 50px;
-        background: white;
-        z-index: 1;
+        .row1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 64px; 
+            padding-right: 64px;
+            background: white;
+            margin-bottom: -25px;
+            z-index: 1;
+        }
+
+        .row1_left p{
+            color: #688D27;
+            max-width: 420px;
+        }
+
+        .row1_right{
+            max-width: 420px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        /* Partner with Us Form */
+        #contact-form{
+            margin-top: 20px;
+            max-width: 240px;
+            background: #F6F6F4;
+            padding: 25px 5px 25px 5px;
+            margin-bottom: -100px;
         
-    }
-    .row3_left{
-        background: white;
-        flex: 1;
-        margin-top: -25px;
-        margin-left: 0;
-        max-width: 420px;
-    }
+        } 
+        .form_head{
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+        }
 
-    .row3_left h2{
-       vertical-align: middle;
-       text-align: center;
-       font-weight: 900;
-       max-width: 100%;
-        background: white;
-    }
+        .text_input{
+            width: 95%;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
 
-    .pwu_text{
-        max-width: 340px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+        .submit{
+            background-color:#81AA42;
+            border: none;
+            color: white;
+            width:100%;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
 
-    .pwu_icon{
-        padding-top: 25px;
+        /*    Row 2   */
+        .row2{
+            width: 100%;
+            background-image: url(../img/design2018/img_partner.png);
+            background-size: cover;
+            z-index: 0;
+            display:block;
+        }
+
+        .row2 img{
+            visibility: hidden;
+            max-width: 100%;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+
+        }
+
+        /*     ROW 3   */
+        .row3{
+            background: transparent;
+            display: flex;
+            align-content: space-between;
+            padding-left: 64px;
+            padding-right: 50px;
+            background: white;
+            z-index: 1;
+        }
+
+        .row3_left{
+            background: white;
+            flex: 1;
+            margin-top: -25px;
+            margin-left: 0;
+            max-width: 420px;
+        }
+
+        .row3_left h2{
+            vertical-align: middle;
+            text-align: center;
+            font-weight: 900;
+            max-width: 100%;
+            background: white;
+        }
+
+        .pwu_text{
+            max-width: 340px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        .pwu_icon{
+            padding-top: 25px;
+        }
         
-    }
-    
-    /* Proven Outcomes */
-    .img_right{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background: white;
-        padding-left: 64px;
-        padding-right: 64px;
-        padding-bottom: 50px;
-        padding-top: 50px;
-        
-    }
-    .img_right div:last-child{
-        margin-left: auto;
-    }
-   .row4{
-    display: flex;
-   }
+        /* Proven Outcomes */
+        .img_right{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: white;
+            padding-left: 64px;
+            padding-right: 64px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
 
-    .row4_col2{
-        padding-left:32px;
-    }
-    
-    .row4_col3{
-        padding-right: 0px;
-    }
-    /* Leveraging Your Budget*/
-    .img_left{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background: #F6F6F6;
-        padding-left: 64px;
-        padding-right: 64px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    .img_left div:first-child{
-        margin-right: auto;
-    }
-    .row7{
-        padding-bottom: 125px;
+        .img_right div:last-child{
+            margin-left: auto;
+        }
+        .row4_col2{
+            padding-left:32px;
+        }
         
-    }
-    
+        .row4_col3{
+            padding-right: 0px;
+        }
 
+        /* Leveraging Your Budget*/
+        .img_left{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: #F6F6F6;
+            padding-left: 64px;
+            padding-right: 64px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .img_left div:first-child{
+            margin-right: auto;
+        }
+        .row7{
+            padding-bottom: 125px;
+            
+        }
 }
