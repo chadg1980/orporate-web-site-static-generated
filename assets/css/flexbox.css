@@ -206,9 +206,7 @@ nav div:first-child h1, nav ul{
     max-width: 50%;
 }
 
-.row5{
-    border: 1px solid red;
-}
+
 
 .row4 a {
     color: #81AA42;
@@ -561,6 +559,12 @@ nav div:first-child h1, nav ul{
             padding-top: 50px;
             padding-bottom: 50px;
         }
+        .img_left > .col1{
+             order:1;
+             padding-right: 32px;
+            }
+        .img_left > .col2{ order:2;}
+        .img_left > .col3{ order:3;}
         
         .img_left div:first-child{
             margin-right: auto;

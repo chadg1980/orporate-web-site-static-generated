@@ -1,0 +1,116 @@
+--- 
+title: Partner With US
+template: layoutwithheadernodemo.html 
+---
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="head_title clearfix">
+            <h1>Partner With Us</h1>
+            <a href="#" class="bottomarrow green"></a>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<!--rowwrap-->
+
+<div class="rowwrap whitebg">
+    <div class="container">
+        <div class="blockpad40_30">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <h3>
+                        Leading health plans, health systems, and employers across the country are choosing HealthSlate to prevent and manage diabetes and heart disease. Here’s why.
+                    </h3>
+                </div>
+                
+
+                <div class="PWU col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <h3>
+                        <strong>Proven Outcomes</strong>
+                    </h3>
+                    <h4>
+                            Over half of our participants achieve the CDC goal of at least 5% weight loss for people at high risk for diabetes. Our deployments for diabetes management have consistently demonstrated A1C glucose decreases of over 1.0%, which is equivalent (but cheaper!) than putting someone on a new drug. Our programs are all evidence-based and compliant with CDC, ADA and AHA clinical recommendations.
+                    </h4>
+                </div>
+
+                <div class="PWU col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3>
+                        <strong>Leveraging Your Budget</strong>
+                    </h3>
+                    <h4>
+                        We offer very low-cost programs that can be provided to all employees or plan members as a covered wellness benefit and premium programs that can be targeted to only those people at highest risk of developing diabetes or heart disease, or who are already diagnosed and are struggling to manage their condition. And our premium programs are all pay-for-performance; we only get paid as participants engage and succeed.
+                    </h4>
+                </div>
+
+                <div class="PWU col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3>
+                        <strong>Flexible Participation Options</strong>
+                    </h3>
+                    <h4> 
+                        Some participants prefer an all-digital program. Some prefer in-person. Many people like the option of combining the two  “(hybrid programs)” to accommodate their busy schedules. We offer programs under all three models, and provide you a single set of resources for tracking participants in all three models. 
+                    </h4>
+                </div>
+
+                <div class="PWUend col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3>
+                        <strong>Helping Your Remain Compliant</strong>
+                    </h3>
+                    <h4>
+                            All non-grandfathered health plans are required to cover diabetes prevention programs (DPPs) because of the USPSTF’s Grade B recommendation, and the Institute for Clinical and Economic Review 
+                            <a href="https://icer-review.org/announcements/final-report-dpp/" target="_blank">recommends coverage </a>
+                            because of the program’s proven effectiveness.
+                    </h4>
+                </div>
+
+                <div class="PWU col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h4> 
+                        Moreover, all Medicare Advantage (MA) plans are required to cover the Medicare DPP starting April 1, 2018. Our programs are compliant with both the USPSTF and CMS requirements. In fact, we pioneered the “virtual makeup” concept that CMS has adopted, allowing participants more flexibility in how they participate.
+                    </h4>
+                </div>
+                
+                <!-- Partner with us form -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    
+                        <form id="contact-form" action="//formspree.io/chadg+pwu@atozhealth.com" method="POST">
+                            <input type="hidden" name="_next" value="http://healthslate.com/thanks.html" />
+                            <input type="hidden" name="_subject" value="Partner With Us web request" />
+                            <div class="form-group">
+                                <legend>Partner with Us</legend>
+                                <div class="col-lg-6 col-centered">
+                                    <label for="partner_email">Enter your email to receive more information</label>
+                                    <div class="input-group">
+                                            
+                                            <input name="reply_to" class="emailInput form-control form-rounded" required minlength="3" id="partner_email" type="email" placeholder="example@domain.com">
+                                            <span class="input-group-btn">
+                                                <input class="form-control submit" type="submit" value="Submit">
+                                            </span>
+                                    </div>
+                                </div>
+                            
+                                    
+                            
+                                <!-- Drop down to be finished later 
+                                <select aria-placeholder="What are you interested in?">
+                                    <option value="" disabled selected>Please select an option</option>
+                                    <option value="consumer">Enrolling in HealthSlate (I’m a consumer)</option>
+                                    <option value="member_support">Member support</option>
+                                    <option value="health_plan">Offering HealthSlate  (I’m a health plan)</option>
+                                    <option value="provider">Offering HealthSlate  (I’m a provider)</option>
+                                </select> 
+                            -->
+                        </div>
+                    </form>
+                    
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
