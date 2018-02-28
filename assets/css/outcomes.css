@@ -1,0 +1,42 @@
+
+ @media only screen and (min-width:480px){
+    .o1{
+        background: url(../img/design2018/outcome/img/img_outcomes1@2x.png);
+        background-size: cover;
+        width: 100%;
+       
+    }
+     
+     
+
+    .what_about{
+        border: 1px solid red;
+        background: #314216DE;
+        margin-top: 75px;
+        margin-left: 28%;
+        margin-bottom: 150px;
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 64px;
+    
+    }
+    .what_about h1{
+        color: white;
+        border: 1px solid black;
+        max-width: 560px;
+        font-weight: 750;
+        font-size: 28pt;
+
+    }
+    .what_about p{
+        color: white;
+        max-width: 560px;
+        font-size: 110%;
+    }
+    .o2{
+        background: white;
+        
+    }
+ 
+}
