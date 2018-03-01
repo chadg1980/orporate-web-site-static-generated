@@ -4,10 +4,7 @@
         background: url(../img/design2018/outcome/img/img_outcomes1@2x.png);
         background-size: cover;
         width: 100%;
-       
     }
-     
-     
 
     .what_about{
         border: 1px solid red;
@@ -19,24 +16,61 @@
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 64px;
-    
     }
+
     .what_about h1{
         color: white;
         border: 1px solid black;
         max-width: 560px;
         font-weight: 750;
         font-size: 28pt;
-
     }
+
     .what_about p{
         color: white;
         max-width: 560px;
         font-size: 110%;
     }
+
     .o2{
         background: white;
+        display: flex;
+        padding-top: 64px;
+        padding-bottom: 64px;
         
     }
+    .o2_item{
+        flex: 1;
+        padding-left: 10px;
+        border: 1px solid blue;
+    }
+    .o2_right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .o2_icons{
+        
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        border: 1px solid red;
+    }
+    .o2_icons img{
+        align-self: center;
+        padding: 10px;
+    }
+
+    .icon_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .icon_text div{
+        padding: 5px;
+    }
+    
+    
  
 }
