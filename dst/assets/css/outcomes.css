@@ -1,6 +1,12 @@
 
- /* full page */
 
+
+ @media only screen and (max-width:340px){
+    .fifth{
+        line-height: unset !important;
+    }
+}
+ /* full page */
  .o1{
     background: url(../img/design2018/outcome/img/img_outcomes1.png) ;     
     
@@ -28,6 +34,7 @@
 
  .o2{
      padding-top: 25px;
+     padding-bottom: 25px;
      display: flex;
      flex-direction: column;
      padding-left: 8px;
@@ -49,20 +56,36 @@
  }
  .o2_icons img{
      padding: 5px;
-     vertical-align: middle;
+     flex-grow: 0;
+     flex-shrink: 0;
  }
- .icon_text{
+ .o2_icons div{
      display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     padding-left: 8px;
-    
+     align-items: center;
+     
  }
- .icon_text div{
-     height: 46px;
-     line-height: 46px;
-     vertical-align: middle;
+ .o2_item span{
+     padding-left: 5px;
  }
+ 
+ 
+
+ .o3{
+    background: #F6F6F7; 
+    margin-left: -8px;
+     margin-right: -8px;
+     width: auto;
+     padding-left: 16px;
+     padding-right: 16px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ .o3 h3{
+    font-weight: 725;
+    font-size: 1.25em;
+ }
+ 
+ 
 
  /* Styling for larger devices*/
  @media only screen and (min-width:480px){
@@ -134,10 +157,9 @@
         font-size: 1.25em;
     }
     .o2_icons{
-        
         display: flex;
         flex-direction: column;
-        align-content: space-between;
+        align-content: space-around;
         flex-wrap: nowrap;
         
     }
@@ -145,19 +167,5 @@
         align-self: center;
         padding: 10px;
     }
-   
-    .icon_text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: left;
-        padding-top: 10px;
-        
-    }
-    .icon_text div{
-        padding: 5px;
-    }
-    
-    
- 
 }
+
