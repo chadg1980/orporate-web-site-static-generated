@@ -1,13 +1,79 @@
 
+ /* full page */
+
+ .o1{
+    background: url(../img/design2018/outcome/img/img_outcomes1.png) ;     
+    
+    margin-left: -5px;
+    margin-right: -5px;
+ }
+ .what_about{
+    background: #314216DE;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+ }
+ .what_about h1{
+     font-weight: 725;
+     padding-left: 13px;
+     padding-right: 13px;
+ }
+ .what_about p{
+    padding-left: 13px;
+    padding-right: 13px;
+ }
+
+ .o2{
+     padding-top: 25px;
+     display: flex;
+     flex-direction: column;
+     padding-left: 8px;
+     padding-right: 8px; 
+ }
+ .o2 h3{
+    font-weight: 725;
+    font-size: 1.25em;
+ }
+ .o2_right{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+ }
+ .o2_icons{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .o2_icons img{
+     padding: 5px;
+     vertical-align: middle;
+ }
+ .icon_text{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     padding-left: 8px;
+    
+ }
+ .icon_text div{
+     height: 46px;
+     line-height: 46px;
+     vertical-align: middle;
+ }
+
+ /* Styling for larger devices*/
  @media only screen and (min-width:480px){
     .o1{
+        margin-left:0px; 
         background: url(../img/design2018/outcome/img/img_outcomes1@2x.png);
         background-size: cover;
         width: 100%;
     }
 
     .what_about{
-        border: 1px solid red;
         background: #314216DE;
         margin-top: 75px;
         margin-left: 28%;
@@ -19,35 +85,53 @@
     }
 
     .what_about h1{
-        color: white;
-        border: 1px solid black;
         max-width: 560px;
         font-weight: 750;
         font-size: 28pt;
+        padding-left: 0; 
+        padding-right: 0;
+        color: white;
+         
     }
 
     .what_about p{
-        color: white;
         max-width: 560px;
         font-size: 110%;
+        padding-left: 0; 
+        padding-right: 0;
+        color: white;
+         
     }
-
     .o2{
         background: white;
         display: flex;
-        padding-top: 64px;
-        padding-bottom: 64px;
-        
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
     }
-    .o2_item{
-        flex: 1;
-        padding-left: 10px;
-        border: 1px solid blue;
+
+    .evidence_based{
+        max-width: 435px;
     }
+    
+    
     .o2_right{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .o2_item{
+        flex: 1;
+        padding-left: 80px;
+    }
+    .o2 h3{
+        font-weight: 709;
+        font-size: 1.25em;
     }
     .o2_icons{
         
@@ -55,17 +139,20 @@
         flex-direction: column;
         align-content: space-between;
         flex-wrap: nowrap;
-        border: 1px solid red;
+        
     }
     .o2_icons img{
         align-self: center;
         padding: 10px;
     }
-
+   
     .icon_text{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: left;
+        padding-top: 10px;
+        
     }
     .icon_text div{
         padding: 5px;
