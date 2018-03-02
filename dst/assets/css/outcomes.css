@@ -34,7 +34,7 @@
 
  .o2{
      padding-top: 25px;
-     padding-bottom: 25px;
+     padding-bottom: 60px;
      display: flex;
      flex-direction: column;
      padding-left: 8px;
@@ -83,6 +83,21 @@
  .o3 h3{
     font-weight: 725;
     font-size: 1.25em;
+ }
+ .o3_text span{
+     font-weight: 700;
+ }
+ 
+ .o3_graphic img{
+     max-width: 100%;
+     padding-bottom: 10px;
+ }
+ .o3_graphic span{
+     color: rgb(112, 148, 58);
+     
+ }
+ .bold{
+     font-weight: 800;
  }
  
  
@@ -157,6 +172,7 @@
         font-size: 1.25em;
     }
     .o2_icons{
+        background: white;
         display: flex;
         flex-direction: column;
         align-content: space-around;
@@ -166,6 +182,41 @@
     .o2_icons img{
         align-self: center;
         padding: 10px;
+    }
+    .o3{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 150px;
+    }
+    .o3_graphic{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .o3_item{
+        flex:1;
+        
+        padding-left: 64px;
+
+    }
+    .o3_graphic img{
+        max-width: 400px;
+    }
+    .o3_graphic{
+        padding-left: 64px;
+    }
+    .o3_text{
+        padding-right: 64px;
+    }
+    .o3_text h3, .o3_text p{
+        max-width: 560px;
+        
+    }
+    .close_caption{
+        text-align: center;
     }
 }
 
