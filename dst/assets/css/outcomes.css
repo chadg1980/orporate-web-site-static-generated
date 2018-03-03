@@ -186,7 +186,7 @@
     .o3{
         display: flex;
         flex-direction: row-reverse;
-        
+        justify-content: space-around;
         margin-left: 0;
         margin-right: 0;
         padding-bottom: 150px;
@@ -199,7 +199,7 @@
     .o3_item{
         flex:1;
         
-        padding-left: 64px;
+        
 
     }
     .o3_graphic img{
@@ -210,9 +210,10 @@
     }
     .o3_text{
         padding-right: 64px;
+        padding-left: 150px;
     }
     .o3_text h3, .o3_text p{
-        max-width: 560px;
+        max-width: 420px;
         
     }
     .close_caption{
