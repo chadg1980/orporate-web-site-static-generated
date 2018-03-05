@@ -1,5 +1,5 @@
 /* full page */
-body, html{
+.body, html{
     font-size: 100%;
     font-family: "Roboto", "Open Sans";
     background: white;
@@ -249,6 +249,12 @@ nav div:first-child h1, nav ul{
 .img_left > .col1{ order:3;}
 .img_left > .col2{ order:1;}
 .img_left > .col3{ order:2;}
+
+.privacy_body{
+    
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 
     /*Styling for larger devices*/
@@ -572,4 +578,18 @@ nav div:first-child h1, nav ul{
             padding-bottom: 125px;
             
         }
+        .privacy_body{
+            background: white;
+            padding-left: 64px;
+            padding-right: 64px;
+            padding-bottom: 125px;
+           
+            
+        }
+        .privacy_body h2, .privacy_body h4, .privacy_body li, .privacy_body p{
+            
+            max-width: 800px;
+           
+        }
+        
 }
