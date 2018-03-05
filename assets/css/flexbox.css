@@ -1,5 +1,5 @@
 /* full page */
-.body, html{
+body, html{
     font-size: 100%;
     font-family: "Roboto", "Open Sans";
     background: white;
@@ -250,8 +250,8 @@ nav div:first-child h1, nav ul{
 .img_left > .col2{ order:1;}
 .img_left > .col3{ order:2;}
 
+/*privacy.thml*/
 .privacy_body{
-    
     padding-left: 8px;
     padding-right: 8px;
 }
