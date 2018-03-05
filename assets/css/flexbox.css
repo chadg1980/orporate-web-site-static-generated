@@ -589,7 +589,19 @@ nav div:first-child h1, nav ul{
         .privacy_body h2, .privacy_body h4, .privacy_body li, .privacy_body p{
             
             max-width: 800px;
+            margin-left: 5%;
+            margin-right: 5%;
            
+        }
+        .privacy_body h2{
+            color: #688D27;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-weight: 900;
+            
+            padding-bottom: 0px;
+            margin-left: 25%;
+            margin-right: 25%;
         }
         
 }
