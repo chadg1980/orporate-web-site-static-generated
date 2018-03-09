@@ -102,6 +102,8 @@
 
  .o4{
     background: url(../img/design2018/outcome/img/img_outcomes2.png) ;     
+    display: flex;
+    flex-direction: column;
     padding-top: 40px;
     margin-left: -5px;
     margin-right: -5px;
@@ -111,37 +113,90 @@
      background: #F0EDEB;
      opacity: 0.75;
      padding-top: 25px;
-     padding-bottom: 25px;
-     margin-bottom: -10px;
+     padding-bottom: 50px;
+     
+     z-index: 0;
  }
  .o4_left h3{
      font-weight: 725;
-     padding-left: 13px;
-     padding-right: 13px;
+     padding-left: 10px;
+     padding-right: 10px;
  }
  .o4_left p{
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: small;
  }
 .o4_right{
-    background: rgb(127, 169, 65);
-    padding-left: 30px;
-    padding-right: 30px;
+    background: #7FA941;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: -15px;
+    padding-bottom: 40px;
+    z-index: 1;
     
 }
 
 .o4_right p {
     padding-top: 30px;
-    padding-bottom: 30px;
     margin-bottom: -10px;
     color: white;
     text-align: center;
     font-size: small;
     
 }
- 
+#tagline{
+    font-style: italic;
+   
+}
+
+.o5{
+    background: #F0EDEB;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+}
+.o5 h3{
+    font-weight: 700;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 40px;
+}
+.o5 p{
+   font-weight: 300;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-bottom: 30px;
+   font-size: small;
+   
+}
+.o6{
+    display: flex;
+    flex-direction: column;
+    background: #F0EDEB;
+    margin-left: -5px;
+    margin-right: -5px;
+
+}
+.o6 img{
+    max-width: 100%;
+}
+.outcomes_img{
+    background: white;
+    padding: 20px;
+    
+}
+.o6 p{
+    text-align: center;
+    font-weight: 500;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#lastdiv{
+    padding-bottom: 75px;
+}
+
+
  
  
 
@@ -262,5 +317,121 @@
     .close_caption{
         text-align: center;
     }
+
+    .o4{
+        background: url(../img/design2018/outcome/img/img_outcomes2.png) ;     
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+        background-size: cover;
+        width: 100%;
+        
+    }
+     
+     .o4_left{
+         background: #F0EDEB;
+         opacity: 0.90;
+         margin-top: 25px;
+         margin-right: 40%;
+         padding-right: 64px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         padding-left: 64px;
+         z-index: 0;
+     }
+     .o4_left h3{
+         font-weight: 725;
+         max-width: 496px;
+    }
+     .o4_left p{
+        max-width: 496px;
+    }
+    .o4_right{
+        background: #7FA941;
+        margin-right: 80px;
+        margin-left: 55%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -15px;
+        margin-bottom:-10%;
+        z-index: 1;
+        
+    }
+    
+    .o4_right p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-bottom: -10px;
+        color: white;
+        text-align: center;
+        font-size: small;
+        max-width: 320px;
+        
+    }
+    .o5{
+        background: #F6f6f7;
+        padding-left: 64px;
+        margin-left: 0;
+        margin-right: 0;
+       
+        
+    }
+    .o5 h3{
+        font-weight: 700;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 40px;
+        max-width: 300px;
+    }
+    .o5 p{
+       max-width: 300px;
+       font-weight: 300;
+       padding-left: 12px;
+       padding-right: 12px;
+       padding-bottom: 30px;
+       
+       
+    }
+    #lastdiv{
+        padding-bottom: 100px;
+    }
+    
+    .o6{
+        display: flex;
+        flex-direction: row;
+        background: #F6f6f7;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 75px;
+        padding-left: 64px;
+        padding-right: 64px;
+        
+    }
+    .o6_right{
+        margin-left: 10px;
+    }
+    .o6_left{
+        margin-right: 10px;
+        padding-bottom: 100px;
+    }
+    .o6 img{
+        max-width: 100%;
+    }
+    .outcomes_img{
+        background: white;
+        
+        padding-bottom: 100px;
+        
+    }
+    .o6  img{
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    .o6 p{
+        text-align: center;
+        font-weight: 500;
+       
+    }
+    
 }
 
