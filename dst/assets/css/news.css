@@ -1,0 +1,118 @@
+
+h5{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+.news_pagetitle{
+    background: white;
+    padding-bottom: 10px;
+    height: 100px;
+    
+}
+.news_pagetitle h1{
+    color: #688D27;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 900;
+    max-width: 50%;
+    padding-bottom: 0px;
+}
+.news_div{
+    background: #E5E4E5;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.news_div_item{
+    background: white;
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 25px; 
+    box-shadow: 2px 4px #888888
+}
+.news_div :first-child{
+    margin-top: 10px;
+}
+.news_div :last-child{
+    margin-bottom: 10px;
+}
+.news_div_item a{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+ @media only screen and (min-width:480px){
+
+    .news_pagetitle{
+        background: white;
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+        height: 50px;
+       
+        
+        
+    }
+    .news_pagetitle h1{
+        color: #688D27;
+        padding-left: 71px;
+        padding-right: 64px;
+        font-weight: 900;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .news_div{
+        background: #E5E4E5;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        padding-bottom: 150px;
+    }
+
+    .news_div_item{
+        background: white;
+        padding: 0;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        border-radius: 25px; 
+        box-shadow: 2px 4px #888888;
+    }
+
+    .news_div :first-child{
+        margin-top: 10px;
+    }
+
+    .news_div :last-child{
+        margin-bottom: 10px;
+    }
+
+    .news_div_item a{
+        text-decoration: none;
+    }
+
+    h3{
+        font-size: x-large;
+        padding-left: 59px;
+    }
+
+    h5{
+        font-size: large;
+        padding-left: 59px;
+    }
+}
