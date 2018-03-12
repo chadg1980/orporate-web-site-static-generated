@@ -255,6 +255,26 @@ nav div:first-child h1, nav ul{
     padding-left: 8px;
     padding-right: 8px;
 }
+/* contactus.html  */
+.contactus_pagetitle h2{
+    color: #688D27;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 900;
+    max-width: 50%;
+    padding-bottom: 0px;
+}
+.contactus_body{
+    min-height: 250px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.contactus_row{
+    padding-left:8px;
+    padding-right:8px;
+
+}
 
 
     /*Styling for larger devices*/
@@ -578,7 +598,7 @@ nav div:first-child h1, nav ul{
             padding-bottom: 125px;
             
         }
-        .privacy_body, .terms_body{
+        .privacy_body, .terms_body, .contactus_body{
             background: white;
             padding-left: 64px;
             padding-right: 64px;
@@ -605,6 +625,33 @@ nav div:first-child h1, nav ul{
             padding-bottom: 0px;
             margin-left: 25%;
             margin-right: 25%;
+            
+
+        }
+        /* contactus.html  */
+        .contactus_body{
+            background: white;
+            min-height: 200px;
+            margin-right: 32px;
+            margin-left: 32px;
+            display: flex;
+            flex-direction: column;
+        }
+        .contactus_pagetitle h2{
+            color: #688D27;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-weight: 900;
+            max-width: 50%;
+            padding-bottom: 0;
+            background: white;
+            margin-bottom: 0;
+        }
+        
+        .contactus_row{
+            padding-left: 80px;
+            padding-right:80px;
+            background: white;
 
         }
         
