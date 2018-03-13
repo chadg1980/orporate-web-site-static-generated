@@ -13,8 +13,10 @@
     margin-left: -5px;
     margin-right: -5px;
  }
+
  .what_about{
-    background: #314216DE;
+    
+    background: rgba(66,22,222, 0.18);
     color: white;
     margin-top: 50px;
     margin-bottom: 50px;
