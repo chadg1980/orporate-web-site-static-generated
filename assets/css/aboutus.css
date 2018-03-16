@@ -17,6 +17,7 @@
     background: white;
     padding-left: 8px;
     padding-right: 8px;
+    padding-bottom: 16px;
 }
 .aboutus_row2{
     display: flex;
@@ -62,12 +63,67 @@
     border-radius: 50%;
 }
 
+.aboutus_row3{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #B6D563;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.aboutus_row3_title h2{
+    margin: 0;
+    padding-top: 16px;
+    background: #B6D563;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 750;
+}
+
+.aboutus_row3 h4{
+    color: #000000;
+    font-weight: 750;
+    margin-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.clinical-board p{
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+.bottomP, .bottomOL{
+    margin-bottom:0px;
+}
+.aboutus_row4{
+    background: #B6D563;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+.aboutus_row4_title h2{
+    color: white;
+    background: #B6D563;
+    text-align: center;
+    font-weight: 750;
+    margin-top: 0px;
+    padding-top: 16px;
+}
+
 @media only screen and (min-width:480px){
     .aboutus_body{
         background: white;
+    }
+    .aboutus_row1{
+        background: white;
         padding-left: 64px;
         padding-right: 64px;
-        padding-bottom: 150px;
+        margin-top: 0;
+        padding-bottom: 30px;
     }
     .aboutus_title{
         background: white;
@@ -85,4 +141,108 @@
         padding-top: 0;
         margin-top: 0;
     }
+    .aboutus_row2{
+        background: #EFF0F0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aboutus_row2_title{
+        padding-top:16px;;
+        padding-bottom: 0;
+        background: #EFF0F0;
+       
+    }
+    .aboutus_row2_title h2{
+        font-size: xx-large;
+        font-weight: 750; 
+    }
+    .aboutus_row2_profiles{
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        
+    }
+    .aboutus_row2_title, .leader-profile h5{
+        text-align: center;
+    }
+    .leaders_row{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        margin-bottom: 16px;
+
+    }
+    
+    .aboutus_row2_title h2{
+        color: #88B22E;
+    }
+    .leader-profile h5{
+        font-size: x-large;
+        font-weight: 700;
+    }
+    
+    .leader-profile{
+        background: white;
+        padding: 16px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        max-width: 40%;
+    }
+    .aboutus_pic img{
+        
+        border-radius: 50%;
+    }
+    .aboutus_row3{
+        padding-left: 64px;
+        padding-right: 64px;
+        background: #B6D563;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .aboutus_row3_title h2{
+        margin: 0;
+        padding-top: 16px;
+        
+        background: #B6D563;
+        text-align: center;
+        color: white;
+        font-size: xx-large;
+    }
+    
+    .aboutus_row3 h4{
+        color: #000000;
+        font-weight: 750;
+        margin-bottom: 0px;
+        
+        padding-left: 8px;
+        padding-right: 8px;
+    
+    }
+    .clinical-board p{
+        margin-top: 0px;
+        padding-left: 16px;
+        padding-right: 8px;
+        font-size: large;
+    }
+    .aboutus_row4{
+        background: #B6D563;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 64px;
+        padding-right: 64px;
+        margin-bottom: 0px;
+        padding-bottom: 150px;
+    }
+    .aboutus_row4_title h2{
+        color: white;
+        background: #B6D563;
+        text-align: center;
+        font-weight: 750;
+        margin-top: 0px;
+        padding-top: 16px;
+        font-size: xx-large;
+    }
+   
 }
