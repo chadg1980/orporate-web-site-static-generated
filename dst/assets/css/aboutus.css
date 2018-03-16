@@ -1,0 +1,68 @@
+.aboutus_body{
+    background: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.aboutus_title{
+    background: white;
+    padding-bottom: 10px;
+    
+    
+}
+.aboutus_title h1{
+    color: #688D27;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 900;
+    max-width: 80%;
+    padding-bottom: 0px;
+}
+.aboutus_row2{
+    display: flex;
+    flex-direction: column;
+    background: #E4E3E4;
+}
+.aboutus_row2_title, .leader-profile{
+    text-align: center;
+}
+.aboutus_row2_title h2{
+    color: #88B22E;
+}
+.leader-profile h5{
+    font-size: x-large;
+    font-weight: 700;
+}
+.leader-profile{
+    background: white;
+    padding: 8px;
+}
+.aboutus_pic img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width:480px){
+    .aboutus_body{
+        background: white;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 150px;
+    }
+    .aboutus_title{
+        background: white;
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+        height: 100px;
+        
+    }
+    .aboutus_title h1{
+        color: #688D27;
+        padding-left: 71px;
+        padding-right: 64px;
+        font-weight: 900;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
