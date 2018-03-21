@@ -4,7 +4,6 @@ Making a dropdown menu
 
 window.onload = function ul(){
 
-    
     let url = window.location.pathname;
     let className = url.substring(url.lastIndexOf('/')+1);
     let charsP = className.lastIndexOf('.');
@@ -15,13 +14,12 @@ window.onload = function ul(){
     }
     
     if(myId != null){
-        console.log(myId);
         let d = document.getElementById(myId);
         if(d !=null ){
             d.classList.add("activeOne");
         }
         if($(window).width() < 480){
-            $('.dropDown li').toggle( "slow", function(){
+            $('.dropDown li').toggle("2000",  "linear", function(){
                 $(".activeOne").css("display", "block");
             });
         }
@@ -45,7 +43,7 @@ window.onresize = function(){
 
 $(function(){
     $("#hamburger").click(function(e){
-       $('.dropDown li').toggle( "slow", function(){
+       $('.dropDown li').toggle( "2000", "linear", function(){
         $(".activeOne").css("display", "block");
        });
         
