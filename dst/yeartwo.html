@@ -20,6 +20,8 @@
 <link href="/assets/css/forms.css" rel="stylesheet" type="text/css" /> 
 <link href="/assets/css/aboutus.css" rel="stylesheet" type="text/css" /> 
 <link href="/assets/css/index.css" rel="stylesheet" type="text/css" /> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/menu.js"></script>
 </head>
 <body>
 <div id="container">
@@ -29,14 +31,21 @@
             <div class="logo">
                 <h1><a href="index.html"><img src="/assets/img/design2018/Logo_healthslate.png" alt="healthslate logo"></a></h1>
             </div>
-            
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="partnerwithus.html">Partner With Us</a></li>
-                <li><a href="outcomes.html">Outcomes</a></li> 
-                <li><a href="https://diabetes.healthslate.com/consumer">Member Log-in ></a></li>
-            </ul>
+            <div class="menu">
+                <ul class="dropDown" >
+                    <div id="hamburger"><p>&#9776;</p></div>
+                    <li id="index"><a  href="index.html">Home</a></li>
+                    <li id="news"><a href="news.html">News</a></li>
+                    <li id="partnerwithus"><a href="partnerwithus.html">Partner With Us</a></li>
+                    <li id="outcomes"><a href="outcomes.html">Outcomes</a></li> 
+                </ul>
+                <div>
+                    
+                    <div class="memberLogin"><a href="https://diabetes.healthslate.com/consumer">Member Log-in ></a></div>
+                </div>
+            </div>
+        
+        
         </nav>
     </div>
 

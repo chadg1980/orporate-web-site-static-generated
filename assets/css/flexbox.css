@@ -21,9 +21,17 @@ nav ul{
     list-style: none;
     padding: 0;
     background: #FFF;
+
 }
 
 nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    line-height:  1;
+}
+.memberLogin a{
     color: #000;
     text-decoration: none;
     padding: .8rem 1rem;
@@ -50,6 +58,36 @@ nav div:first-child h1{
 }
 nav div:first-child h1, nav ul{
     margin: 0.5px;
+}
+#hamburger{
+    display: none;
+}
+/*make the menu drop down*/
+@media only screen and (max-width:480px){
+    
+    
+    .activeOne a {
+        color: #000;
+        text-decoration: none;
+        padding: .8rem 1rem;
+        display: block;
+        line-height:  1;
+    }
+    
+    #hamburger{
+        display: inline;
+   }
+   
+    #hamburger p {
+        margin-top: 0px;
+        padding-top: 11px;
+        padding-right: 8px;
+        float: right;
+        font-size: 1.5rem;
+    }
+    
+   
+    
 }
 
 /* Footer */
@@ -277,6 +315,7 @@ nav div:first-child h1, nav ul{
 }
 
 
+
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
         #container{
@@ -343,27 +382,27 @@ nav div:first-child h1, nav ul{
             padding-right: 0.5rem;
             padding-bottom: 0; 
         }
-
-        nav ul li a::after, nav ul li a::before{
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right:0;
-            width:0%;
-            height: 2px;
-            background: #81AA42;
-            transition: ease-in-out;
+        .memberLogin a{
+            padding-left: 0.5rem;
+            padding-right: 0;
+            padding-bottom: 0; 
         }
+
+        .menu{
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+
+        .activeOne{
+            border-bottom: 2px solid #81AA42;
+        }
+
 
         nav ul li a::before{
             left:0;
         }
 
-        nav ul li a:hover::after, 
-        nav ul li a:hover::before{
-            width: 50%;
-        }
-        
         /*    Footer    */
         .footer{
             background-color: #81AA42;
