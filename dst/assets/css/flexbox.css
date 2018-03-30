@@ -64,8 +64,7 @@ nav div:first-child h1, nav ul{
 }
 /*make the menu drop down*/
 @media only screen and (max-width:480px){
-    
-    
+        
     .activeOne a {
         color: #000;
         text-decoration: none;
@@ -314,7 +313,11 @@ nav div:first-child h1, nav ul{
 
 }
 
+    /*Styling for larger devices*/
+    @media only screen and (min-width:768px){
 
+
+    }
 
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
