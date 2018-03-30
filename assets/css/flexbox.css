@@ -312,12 +312,7 @@ nav div:first-child h1, nav ul{
     padding-right:8px;
 
 }
-
-    /*Styling for larger devices*/
-    @media only screen and (min-width:768px){
-
-
-    }
+    
 
     /*Styling for larger devices*/
     @media only screen and (min-width:480px){
