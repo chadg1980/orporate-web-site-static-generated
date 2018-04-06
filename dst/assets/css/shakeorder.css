@@ -32,6 +32,9 @@
     border: 1px solid;
     box-shadow: 2px 4px;
 }
+.blank{
+    display: none;
+}
 
 @media only screen and (min-width:480px){
     .shakeorder_body{
@@ -57,7 +60,7 @@
         
      }
     .shake_row1{
-        
+        display: flex;
         padding-left: 64px; 
         padding-right: 64px;
         background: white;
@@ -72,4 +75,5 @@
     .shake_fudge p{
         font-size: small;
     }
+   
 }
