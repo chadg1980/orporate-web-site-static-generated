@@ -20,6 +20,8 @@
     padding-bottom: 0px;
 }
 .shake_row1{
+    display:flex;
+    flex-direction: column;
     padding-left: 8px;
     padding-right: 8px;
 }
@@ -27,14 +29,12 @@
     text-decoration: none;
     color: black;
 }
-.shake_fudge{
+.shake_button{
     padding: 10px;
     border: 1px solid;
     box-shadow: 2px 4px;
 }
-.blank{
-    display: none;
-}
+
 
 @media only screen and (min-width:480px){
     .shakeorder_body{
@@ -61,6 +61,8 @@
      }
     .shake_row1{
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         padding-left: 64px; 
         padding-right: 64px;
         background: white;
