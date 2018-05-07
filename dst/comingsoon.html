@@ -60,12 +60,24 @@
     </div>
     <div class="comingsoon_video">
        <div class="video">
-            <video id="meal_logging"  autoplay loop>
+            <video id="meal_logging" muted autoplay loop>
                 <source src="/assets/video/meal_logging.mp4" type="video/mp4">
                     Your browswer does not support HTML videos.
             </video>
             <script>
-                document.getElementById('meal_logging').play();
+                let video = document.getElementById('meal_logging');
+                var isPlaying = video.currentTime > 0 && !video.paused && !video.ended 
+                    && video.readyState > 2;
+
+                if (!isPlaying) {
+                    console.log("not playing, pressing play");
+                    video.pause();
+                    video.play();
+                }
+                else{
+                    console.log("already playing")
+                }
+
             </script>
         </div>  
         
