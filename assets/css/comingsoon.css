@@ -246,10 +246,14 @@
             background: white;
             border: none;
             height: unset;
-            width:480px;
+            width: 480px;
         }
         
-        
+        .comingsoon_contact{
+            background: white;
+            padding-left: 64px;
+            padding-right: 64px;
+        }
 
         
         .comingsoon_legend{
