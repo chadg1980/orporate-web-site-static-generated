@@ -19,7 +19,7 @@
 
  }
 
- .coming_soon{
+ .comingsoon_video{
     display: flex;
     flex-direction: column;
     background: black;
@@ -69,8 +69,18 @@
     padding-left: 10px;
     padding-right: 10px;
    background: white;
-   }
+}
 
+.comingsoon_contact{
+    background: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.comingsoon_contact h3{
+    color: #688D27;
+    font-weight: 900;
+}
 
  
 .comingsoon_legend{
@@ -168,6 +178,7 @@
     border: 1px solid #447314;
     background: #8dc059;
     }
+    
 
     @media only screen and (min-width:480px){
         body{
@@ -236,6 +247,7 @@
          }
         .comingsoon_legend{
             font-size: 80%;
+            background: #8AB43F;
         }
         .form_row{
             display: flex;
