@@ -229,7 +229,7 @@
             
         }
         .comingsoon_text_row p{
-            display: inline;
+            font-size: larger;
         }
         
         .video{
@@ -243,21 +243,23 @@
         }
         #meal_logging{
             margin-left: 0px;
-            background: white;
+            background: black;
             border: none;
-            height: unset;
-            width: 480px;
+            height: 480px;
+            width: unset;
+            margin-left:-240px;
         }
         
         .comingsoon_contact{
             background: white;
             padding-left: 64px;
             padding-right: 64px;
+            text-align: center;
         }
 
         
         .comingsoon_legend{
-            font-size: 80%;
+            font-size: 100%;
             
         }
 
