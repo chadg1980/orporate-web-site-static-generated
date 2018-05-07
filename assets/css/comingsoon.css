@@ -210,21 +210,21 @@
             flex-direction: row-reverse;
             flex-wrap: nowrap;
             justify-content: space-around;
-            background: white;
+            background: black;
             margin-right: 0px;
             padding-right: 0px;
         }
        
         .comingsoon_text_row{
-            background: white;
+            background: black;
             color: #688D27;
             margin-right: 0px;
-            padding-top: 8px;
+            padding-top: 16px;
             padding-bottom: 8px;
-            padding-left: 32px;
+            padding-left: 64px;
             padding-right: 32px;
             max-width: 480px;
-            width: 50%;
+            width: 65%;
 
             
         }
@@ -234,9 +234,8 @@
         
         .video{
             max-width: 50%;
-
-            padding-top:0px;
-            padding-bottom:0px;
+            padding-top:8px;
+            padding-bottom:8px;
             margin-left: 20px;
             margin-right: 0px;
             
