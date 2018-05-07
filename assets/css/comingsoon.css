@@ -23,14 +23,12 @@
     display: flex;
     flex-direction: column;
     background: black;
-    margin-right: -60px;
-    padding-right: 60px;
+   
     
 }
 .comingsoon_text_row{
     background: white;
     color: #688D27;
-    margin-right: -60px;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 8px;
@@ -39,17 +37,18 @@
 }
 .video{
     overflow:hidden;
-    margin-left: -250px;
     background: black;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
     
 }
 #meal_logging{
-    width: 150%;
-    height: 150%;
-    background: black;
+   max-width: 150%;
+   margin-left: -25%;
+   background: black;
+   padding-top: 8px;
+   padding-bottom: 8px;
     
 }
 
@@ -60,8 +59,7 @@
     padding-left: 32px; 
     z-index: 10;
     margin-top: -10px;
-    margin-right: -40px;
-    padding-right: 40px;
+    
     
 }
 
@@ -225,7 +223,9 @@
             padding-right: 32px;
             max-width: 480px;
             width: 65%;
-
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
             
         }
         .comingsoon_text_row p{
@@ -247,6 +247,7 @@
             border: none;
             height: 480px;
             width: unset;
+            max-width: unset;
             margin-left:-240px;
         }
         
