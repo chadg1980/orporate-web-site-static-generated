@@ -208,6 +208,8 @@
         .comingsoon_video{
             display: flex;
             flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            justify-content: space-around;
             background: white;
             margin-right: 0px;
             padding-right: 0px;
@@ -217,33 +219,35 @@
             background: white;
             color: #688D27;
             margin-right: 0px;
-            max-width: 80%;
             padding-top: 8px;
             padding-bottom: 8px;
             padding-left: 32px;
             padding-right: 32px;
+            max-width: 480px;
+            width: 50%;
+
             
         }
         .comingsoon_text_row p{
             display: inline;
-            padding-right: 40px;
         }
+        
         .video{
-            max-width: 840px;
-            overflow: hidden;
-            display: block; 
+            max-width: 50%;
+
             padding-top:0px;
             padding-bottom:0px;
-            border: 1px solid red;
+            margin-left: 20px;
+            margin-right: 0px;
             
             
         }
         #meal_logging{
-            margin-left: -240px;
+            margin-left: 0px;
             background: white;
-            border: 5px solid black;
-            height: 480px;
-            width:720px;
+            border: none;
+            height: unset;
+            width:480px;
         }
         
         
@@ -259,13 +263,19 @@
             flex-direction: column;
             background: white;
             padding-bottom: 250px;
-        }
+            margin-right: 0px;
+            margin-left: 0px;
+            padding-right: 32px;
+            padding-left: 32px;
+            z-index: unset;
 
-        .form_div{
-            align-self: center;
         }
+        .comingsoonform_div{
+            align-self:center;
+        }
+         
         
-        .form-container {
+        .comingsoon_form-container {
             border: 1px solid #000000;
             background: #8AB43F; 
             -webkit-border-radius: 8px;
