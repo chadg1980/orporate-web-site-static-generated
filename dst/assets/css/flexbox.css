@@ -309,25 +309,42 @@ nav div:first-child h1, nav ul{
     padding-right:8px;
 
 }
-
+/*
+    Thanks.html
+*/
 .thanks{
+    background-color: #E4E7DE;
+    margin-left: -8px;
+    margin-right: -32px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+
+}
+.border{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: white;
-    padding-left: 8px;
-    padding-right: 8px;
+    
 }
 .well{
     max-width: 70%;
-    background-color: #8AB43F;
+    border: 1px solid #000000;
+    background: #8AB43F; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     padding: 20px;
-    border: 4px solid black;
+    
+    border: 1px solid black;
 }
 .thanks_center{
-    font-weight: 800;
-    text-shadow: #e2f0e3 0 1px 0;
+    font-weight: 500;
 }
+/*
+    End thanks.html
+*/
 
     
 
@@ -708,27 +725,56 @@ nav div:first-child h1, nav ul{
             background: white;
 
         }
-
+        /*
+        Thanks.html
+        */
         .thanks{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            background-color: white;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 64px;
+            padding-right: 64px;
+            padding-bottom: 220px;
+         
+
+        }
+        .thanks_child{
+            margin: 2px;
+            padding: 1px 5px;
+            flex-grow: 1;
+            max-width: 40%;
+        }
+        .border{
             display: flex;
             align-items: center;
             justify-content: center;
-            background: white;
-            padding-left: 64px;
-            padding-right: 64px;
-            padding-bottom: 350px;
+            padding: 32px;
+            background: lightgray;
             
-
+            
         }
         .well{
-            max-width: 70%;
+            max-width: 75%;
             background-color: #8AB43F;
             padding: 20px;
-            border: 4px solid black;
+            border: 1px solid black;
         }
+        
+        .thanks_image img{
+            max-width: 75%;
+            height: max-
+        }
+       
+        
         .thanks_center{
-            font-weight: 800;
-            text-shadow: #e2f0e3 0 1px 0;
+            font-weight: 600;
+            
         }
+        /*
+        end thanks.html
+        */
         
 }
