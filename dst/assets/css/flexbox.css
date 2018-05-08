@@ -64,9 +64,7 @@ nav div:first-child h1, nav ul{
     .menu{
         margin: 0 auto;
     }
-    .dropDown{
-        max-width: 98%;
-    }
+    
     .activeOne a {
         color: #000;
         text-decoration: none;
@@ -76,15 +74,18 @@ nav div:first-child h1, nav ul{
     }
     
     #hamburger{
-        display: inline;
+        display: inline-block;
+        
    }
    
     #hamburger p {
         margin-top: 0px;
         padding-top: 10px;
         padding-right: 8px;
-        float: right;
+        /*float: right;*/
         font-size: 1.5rem;
+        position: absolute;
+        right: 0;
     }
 }
 
