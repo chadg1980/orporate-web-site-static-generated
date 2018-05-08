@@ -64,21 +64,7 @@
                 <source src="/assets/video/meal_logging.mp4" type="video/mp4">
                     Your browswer does not support HTML videos.
             </video>
-            <script>
-                let video = document.getElementById('meal_logging');
-                var isPlaying = video.currentTime > 0 && !video.paused && !video.ended 
-                    && video.readyState > 2;
 
-                if (!isPlaying) {
-                    console.log("not playing, pressing play");
-                    video.pause();
-                    video.play();
-                }
-                else{
-                    console.log("already playing")
-                }
-
-            </script>
         </div>  
         
         <div class="comingsoon_text_row">
@@ -91,7 +77,7 @@
         
     </div>
     <div class="comingsoon_contact">
-        <h3>To discuss partnering opportunities, contact us here:</h3>
+        <h3>To join the private beta, contact us here:</h3>
     </div>
 
     <div class="comingsoon_form_row">
@@ -106,14 +92,14 @@
                         Register to be part of the private beta. We will not provide your information to third parties (see our Privacy Policy for additional information.)
                     </h2>
                 </div>
-                <div class="form-title">
+                <div class="comingsoon_form-title">
                     <h3>
                         Name 
                     </h3>
                 </div>
                 <input placeholder="John McCarthy" class="form-field" type="text" name="name" required minlength="2" />
                 <br />                            
-                <div class="form-title">
+                <div class="comingsoon_form-title">
                     <h3>
                         Email 
                     </h3>

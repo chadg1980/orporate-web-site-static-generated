@@ -59,14 +59,12 @@
     padding-left: 32px; 
     z-index: 10;
     margin-top: -10px;
-    
-    
 }
 
 .comingsoonform_div{
     padding-left: 10px;
     padding-right: 10px;
-   background: white;
+    background: white;
 }
 
 .comingsoon_contact{
@@ -127,17 +125,17 @@
     }
 
  .comingsoon_legend {
-    text-shadow: #e2f0e3 0 1px 0;
+    /*text-shadow: #e2f0e3 0 1px 0;*/
     font-size:18px;
     margin: 0 0 10px 0;
-    font-weight:bold;
+   /*font-weight:bold;*/
     text-align:center;
     }
 
- .form-title {
+ .comingsoon_form-title {
     margin-bottom:10px;
     color: #080808;
-    text-shadow: #e2f0e3 0 1px 0;
+    /*text-shadow: #e2f0e3 0 1px 0;*/
     }
 
  .submit-container {
@@ -318,20 +316,20 @@
         }
 
         .form-container h2 {
-            text-shadow: #e2f0e3 0 1px 0;
+            /*text-shadow: #e2f0e3 0 1px 0;*/
             font-size:18px;
             margin: 0 0 10px 0;
-            font-weight:bold;
+            
             text-align:center;
         }
 
-        .form-title {
+        .comingsoon_form-title {
             margin-bottom:0;
             color: #080808;
-            text-shadow: #e2f0e3 0 1px 0;
+            /*text-shadow: #e2f0e3 0 1px 0;*/
             text-align: left;
         }
-        .form-title h3{
+        .comingsoon_form-title h3{
             align-self: left;
         }
         .submit-container {
