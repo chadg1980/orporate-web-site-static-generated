@@ -98,7 +98,7 @@
     margin-left: 10px;
 }
 
- .form-field {
+.form-field {
     border: 1px solid #000000;
     background: #b5b0aa;
     -webkit-border-radius: 4px;
@@ -116,7 +116,7 @@
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-         box-sizing: border-box;
+            box-sizing: border-box;
     
     }
  .form-field:focus {
@@ -124,29 +124,26 @@
     color: #000000;
     }
 
- .comingsoon_legend {
-    /*text-shadow: #e2f0e3 0 1px 0;*/
+.comingsoon_legend {
     font-size:18px;
     margin: 0 0 10px 0;
-   /*font-weight:bold;*/
     text-align:center;
-    }
+}
 
- .comingsoon_form-title {
+.comingsoon_form-title {
     margin-bottom:10px;
     color: #080808;
-    /*text-shadow: #e2f0e3 0 1px 0;*/
-    }
+}
 
- .submit-container {
+.submit-container {
     margin:8px 0;
     text-align:right;
-    }
+}
 
- .submit-button {
+.submit-button {
     border: 1px solid #447314;
     background: #026c29;
-   -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
@@ -160,7 +157,7 @@
     text-decoration: none;
     vertical-align: middle;
     margin-right: 10px;
-    }
+}
 
  .submit-button:hover {
     border: 1px solid #447314;
@@ -169,11 +166,11 @@
     color: #fff;
     }
 
- .submit-button:active {
+.submit-button:active {
     text-shadow: #31540c 0 1px 0;
     border: 1px solid #447314;
     background: #8dc059;
-    }
+}
     
 
     @media only screen and (min-width:480px){
