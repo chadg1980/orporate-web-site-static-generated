@@ -9,6 +9,9 @@ body, html{
     margin:0;
     padding:0;
 }
+div{
+    box-sizing:border-box;
+}
 
 .graytop{
     
@@ -100,7 +103,6 @@ nav div:first-child h1, nav ul{
 }
 
 .item{
-    
     padding: 4% 4%;
 }
 
