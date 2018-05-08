@@ -187,14 +187,17 @@
             padding-bottom: 15px;
             height: 50px;
             padding-left: 64px;
+            
         }
         .comingsoon_title h1 {
+            background: white;
             color: #688D27;
             padding-left: 8px;
             padding-right: 8px;
             font-weight: 900;
             max-width: 50%;
             padding-bottom: 10px;
+            
          }
         
         .comingsoon_video{
