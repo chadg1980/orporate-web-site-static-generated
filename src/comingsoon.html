@@ -41,23 +41,27 @@ template: layout2018.html
                         Register to be part of the private beta. We will not provide your information to third parties (see our Privacy Policy for additional information.)
                     </h2>
                 </div>
-                <div class="comingsoon_form-title">
-                    <h3>
-                        Name 
-                    </h3>
-                </div>
-                <input placeholder="John McCarthy" class="form-field" type="text" name="name" required minlength="2" />
-                <br />                            
-                <div class="comingsoon_form-title">
-                    <h3>
-                        Email 
-                    </h3>
-                </div>
-                <input placeholder="example@domain.com" class="form-field" type="email" name="email" required minlength="3" />
-                <br />
-                <div class="submit-container">
-                    <input class="submit-button" type="submit" value="Submit" />
-                </div>
+                <ul class="comingsoon_formlist">
+                    <li>
+                        <label for="company_name" class="comingsoon_form-title">Company/Organization</label>
+                        <input placeholder="Company" class="form-field" type="text" name="company_name" required minlength="1" />
+                    </li>
+                    <li>
+                        <label for="first_name" class="comingsoon_form-title">First Name</label>
+                        <input placeholder="John" class="form-field" type="text" name="first_name" required minlength="2" />
+                    </li>
+                    <li>
+                        <label for="last_name" class="comingsoon_form-title">Last Name</label>
+                        <input placeholder="McCarthy" class="form-field" type="text" name="last_name" required minlength="2" />   
+                    </li>    
+                    <li>
+                        <lablel for="email" class="comingsoon_form-title">Email </lablel>
+                        <input placeholder="example@domain.com" class="form-field" type="email" name="email" required minlength="3" />
+                    </li>                        
+                    <li class="submit-container">
+                        <input class="submit-button" type="submit" value="Submit" />
+                    </li>
+                </ul>
             </form>
         </div>
     </div>

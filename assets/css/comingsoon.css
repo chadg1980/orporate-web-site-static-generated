@@ -132,6 +132,8 @@
 .comingsoon_form-title {
     margin-bottom:10px;
     color: #080808;
+    padding-left: 4px;
+    font-weight: 550;
 }
 
 .submit-container {
@@ -170,6 +172,15 @@
     border: 1px solid #447314;
     background: #8dc059;
 }
+
+.comingsoon_formlist{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.comingsoon_formlist input{
+    margin-top: 5px;
+}
+
     
 
     @media only screen and (min-width:480px){
@@ -323,14 +334,11 @@
         }
 
         .comingsoon_form-title {
-            margin-bottom:0;
             color: #080808;
-            /*text-shadow: #e2f0e3 0 1px 0;*/
             text-align: left;
+            
         }
-        .comingsoon_form-title h3{
-            align-self: left;
-        }
+        
         .submit-container {
             margin:8px 0;
             text-align:right;
