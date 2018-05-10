@@ -136,9 +136,34 @@
     font-weight: 550;
 }
 
+.comingsoon_formlist{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.comingsoon_inputbox{
+    margin-top: 5px;
+}
+.submit-button_comingsoon{
+    margin-top: 0px;
+}
+
+.required_f{
+    font-weight: 400;
+    color: red;
+}
+
 .submit-container {
     margin:8px 0;
     text-align:right;
+}
+
+.req_legend{
+    padding-left: 8px;
+    padding-bottom: 0px;
+    padding-top:0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+
 }
 
 .submit-button {
@@ -173,13 +198,7 @@
     background: #8dc059;
 }
 
-.comingsoon_formlist{
-    list-style-type: none;
-    padding-left: 0px;
-}
-.comingsoon_formlist input{
-    margin-top: 5px;
-}
+
 
     
 

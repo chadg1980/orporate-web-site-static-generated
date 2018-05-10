@@ -43,25 +43,28 @@ template: layout2018.html
                 </div>
                 <ul class="comingsoon_formlist">
                     <li>
-                        <label for="company_name" class="comingsoon_form-title">Company/Organization</label>
-                        <input placeholder="Company" class="form-field" type="text" name="company_name" required minlength="1" />
+                        <label for="company_name" class="comingsoon_form-title">Company/Organization <span class="required_f">*</span></label>
+                        <input placeholder="Company" class="form-field comingsoon_inputbox" type="text" name="company_name" required minlength="1" />
                     </li>
                     <li>
-                        <label for="first_name" class="comingsoon_form-title">First Name</label>
-                        <input placeholder="John" class="form-field" type="text" name="first_name" required minlength="2" />
+                        <label for="first_name" class="comingsoon_form-title">First Name <span class="required_f">*</span></label>
+                        <input placeholder="John" class="form-field comingsoon_inputbox" type="text" name="first_name" required minlength="2" />
                     </li>
                     <li>
-                        <label for="last_name" class="comingsoon_form-title">Last Name</label>
-                        <input placeholder="McCarthy" class="form-field" type="text" name="last_name" required minlength="2" />   
+                        <label for="last_name" class="comingsoon_form-title">Last Name <span class="required_f">*</span></label>
+                        <input placeholder="McCarthy" class="form-field comingsoon_inputbox" type="text" name="last_name" required minlength="2" />   
                     </li>    
                     <li>
-                        <lablel for="email" class="comingsoon_form-title">Email </lablel>
-                        <input placeholder="example@domain.com" class="form-field" type="email" name="email" required minlength="3" />
+                        <lablel for="email" class="comingsoon_form-title">Email <span class="required_f">*</span></lablel>
+                        <input placeholder="example@domain.com" class="form-field comingsoon_inputbox" type="email" name="email" required minlength="3" />
                     </li>                        
                     <li class="submit-container">
-                        <input class="submit-button" type="submit" value="Submit" />
+                        <input class="submit-button submit-button_comingsoon" type="submit" value="Submit" />
                     </li>
                 </ul>
+                <div class="req_legend">
+                    <span class="required_f">*</span>Indicates required field
+                </div>
             </form>
         </div>
     </div>
