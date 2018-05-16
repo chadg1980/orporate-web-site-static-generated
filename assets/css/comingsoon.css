@@ -68,13 +68,14 @@
 
 .comingsoon_contact{
     background: white;
-    padding-left: 8px;
-    padding-right: 8px;
+    
+    text-align: center;
 }
-
 .comingsoon_contact h3{
     color: #688D27;
     font-weight: 900;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
  
@@ -83,7 +84,6 @@
 }
 
 .comingsoon_form-container, #contact-form {
-
     border: none;
     background: #f1f1f1; 
     -webkit-border-radius: 8px;
@@ -95,11 +95,12 @@
     text-decoration: none;
     vertical-align: middle;
     margin-left: 10px;
+    padding: 20px;
 }
 
 .form-field {
-    border: 1px solid #000000;
-    background: #b5b0aa;
+    border: 1px solid #CCC;
+    background: #FFF;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -119,15 +120,25 @@
     
     }
  .form-field:focus {
+    border: 1px solid #FFF;
     background: #fff;
     color: #000000;
     }
 
 .comingsoon_legend {
-    font-size:18px;
-    margin: 0 0 10px 0;
-    text-align:center;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+   
 }
+.comingsoon_contact_legend p {
+    font-size: 15px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
 
 .comingsoon_form-title {
     margin-bottom:10px;
@@ -325,8 +336,8 @@
         }
 
         .form-field {
-            border: 1px solid #000000;
-            background: #b5b0aa;
+            border: 1px solid #CCC;
+            background: #FFF;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             border-radius: 4px;
@@ -340,6 +351,7 @@
         }
 
         .form-field:focus {
+            border: 1px solid #000;
             background: #fff;
             color: #000000;
         }
