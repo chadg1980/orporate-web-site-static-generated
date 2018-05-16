@@ -74,14 +74,23 @@
             <form id="contact-form" action="//formspree.io/chadg+pwu@atozhealth.com" method="POST">
                 <input type="hidden" name="_next" value="http://healthslate.com/thanks.html" />
                 <input type="hidden" name="_subject" value="Partner With Us web request" />
-                <legend class="form_head">Get in Touch Now!</legend>
-                <label for="partner_email">Enter your email to get in touch</label>
-                <div>
-                    <input name="reply_to" class="text_input" required minlength="3" id="partner_email" type="email" placeholder="example@domain.com">
+                <div class="pwu_form_legend">
+                    <h3>
+                        Get in Touch Now!
+                    </h3>
+                    <p>
+                        Enter your email to get in touch
+                    </p>
                 </div>
-                <div>
-                    <input class="submit" type="submit" value="Submit">                       
-                </div>
+                <ul class="form-list">
+                    <li class="form-list-item">
+                        <label for="partner_email">Email</label>
+                        <input name="reply_to" class="text_input" required minlength="3" id="partner_email" type="email">
+                    </li>
+                    <li>
+                        <input class="pwu_submit" type="submit" value="Submit">                       
+                    </li>
+                </ul>
             </form>
 
         </div>
