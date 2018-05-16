@@ -8,12 +8,12 @@
 }
 .form_title{
     background: white;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
     height: 100px;
 }
 .shake_form_title{
     background: white;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .form_title h1, .shake_form_title h1{
@@ -21,15 +21,20 @@
     padding-left: 8px;
     padding-right: 8px;
     font-weight: 900;
-    max-width: 50%;
-    padding-bottom: 10px;
- }
+    margin-bottom: 0px;
+}
  
-.year_two_legend{
+.the_legend h3{
     font-size: 16px;
     margin-bottom: 2px;
     margin-top: 0px;
     padding-top: 0px; 
+}
+.the_legend p {
+    font-size: 15px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 22px;
 }
 
 .form-container, #contact-form {
@@ -45,6 +50,7 @@
     vertical-align: middle;
     margin-left: 10px;
     padding: 20px;
+    max-width: 420px;
 }
 
 .form-list{
@@ -108,75 +114,61 @@
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-         box-sizing: border-box;
+    box-sizing: border-box;
     
 }
- .form-field:focus {
+.form-field:focus {
     background: #fff;
     color: #000000;
-    }
+}
 
- .year_two_legend {
-    font-size:18px;
-    margin: 0 0 10px 0;
-    font-weight:bold;
-    text-align:center;
-    }
-
- .form-title {
+.form-title {
     margin-bottom:10px;
     color: #080808;
-    }
+}
 
- .submit-container {
-    margin:8px 0;
-    text-align:right;
-    }
-
-    .submit-button{
-        border: none;
-        background: #74A740;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-        -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-        box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
-        color: #FFF;
-        font-family: helvetica, serif;
-        padding: 8.5px 18px;
-        font-size: 14px;
-        text-decoration: none;
-        vertical-align: middle;
-        text-align: center;
-        margin-right: 10px;
-        width: 100%;
-        text-transform: uppercase;
-        font-weight: 800;
-    }
+.submit-button{
+    border: none;
+    background: #74A740;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    color: #FFF;
+    font-family: helvetica, serif;
+    padding: 8.5px 18px;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    outline: none;
+}
     
-    .submit-button:hover {
-        border: 1px solid #447314;
-        background: #6aa436;
-        color: #fff;
-    }
-    
-    .submit-button:active {
-        border: 1px solid #447314;
-        background: #026c29;
-        color: #fff;
-    }
-
- .submit-button:hover {
+.submit-button:hover {
     border: 1px solid #447314;
-    text-shadow: #31540c 0 1px 0;
     background: #6aa436;
     color: #fff;
 }
 
- .submit-button:active {
+.submit-button:active {
     border: 1px solid #447314;
-    background: #8dc059;
+    background: #026c29;
+    color: #fff;
+    outline: none;
+}
+
+.req_legend{
+    padding-left: 8px;
+    padding-bottom: 0px;
+    padding-top:0px;
+    margin-bottom: 0px;
+    margin-top:0px;
 }
 
     @media only screen and (min-width:480px){
@@ -196,9 +188,9 @@
 
         .form_title{
             background: white;
-            padding-bottom: 15px;
+            padding-bottom: 25px;
             height: 50px;
-            padding-left: 64px;
+            text-align: center;
         }
         .shake_form_title{
             background: white;
@@ -212,24 +204,17 @@
         
         .form_title h1 {
             color: #688D27;
-            padding-left: 8px;
-            padding-right: 8px;
             font-weight: 900;
-            max-width: 50%;
             padding-bottom: 10px;
          }
 
         
         .shake_form_title h1{
             color: #688D27;
-            
             font-weight: 900;
-            
             padding-bottom: 10px;
          }
-        .year_two_legend{
-            font-size: 80%;
-        }
+        
         .form_row{
             display: flex;
             flex-direction: column;
@@ -300,31 +285,33 @@
         }
 
         .submit-button {
-            border: 1px solid #447314;
-            background: #026c29;
+            background: #74A740;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             border-radius: 4px;
             -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
             -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
             box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+            text-shadow: none;
             color: #f9faf7;
             font-family: helvetica, serif;
             padding: 8.5px 18px;
             font-size: 14px;
             text-decoration: none;
             vertical-align: middle;
+            width: unset;
+            margin-right: 0px;
         }
 
         .submit-button:hover {
-            border: 1px solid #447314;
-            background: #6aa436;
+            border: none;
+            background: #5B8E27;
             color: #fff;
         }
 
         .submit-button:active {
-            border: 1px solid #447314;
-            background: #8dc059;
+            background: #026c29;
             color: #fff;
+            outline: none;
         }
     }

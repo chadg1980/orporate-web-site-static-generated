@@ -167,14 +167,7 @@
     text-align:right;
 }
 
-.req_legend{
-    padding-left: 8px;
-    padding-bottom: 0px;
-    padding-top:0px;
-    margin-bottom: 0px;
-    margin-top:0px;
 
-}
 
 .submit-button_comingsoon {
     border: none;
@@ -332,6 +325,7 @@
             vertical-align: middle;
             min-width:400px;
             padding:20px;
+            max-width: 420px;
         }
 
         .form-field {
@@ -400,7 +394,6 @@
         }
 
         .submit-button_comingsoon:active {
-            border: 1px solid #447314;
             background: #026c29;
             color: #fff;
             outline: none;
