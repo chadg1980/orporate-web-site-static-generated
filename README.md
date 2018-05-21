@@ -11,4 +11,4 @@ I added several original pages including Partner With Us, Outcomes, and Coming S
 * [MetalSmith.js](http://www.metalsmith.io/)
 * HTML/CSS/javascrip 
 * CSS Flexbox
-* [FormSpree](https://formspree.io/) For all of the forms
+* [FormSpree](https://formspree.io/) For web form communication
