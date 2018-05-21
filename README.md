@@ -12,3 +12,6 @@ I added several original pages including Partner With Us, Outcomes, and Coming S
 * HTML/CSS/javascrip 
 * CSS Flexbox
 * [FormSpree](https://formspree.io/) For web form communication
+
+<img src="https://github.com/chadg1980/orporate-web-site-static-generated/blob/master/hs1.png" alt="HealthSlate website full screen">
+<img src="https://github.com/chadg1980/orporate-web-site-static-generated/blob/master/hs2.PNG" alt="HealthSlate website mobile">
