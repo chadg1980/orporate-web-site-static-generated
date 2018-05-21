@@ -1,24 +1,14 @@
 
-Responsive static web site for corporate pages
-
+# HealthSlate Coorporate Website
 http://healthslate.com
 
+Working with a UI designer, I rebuilt the entire HealthSlate corporate website. Some of the text and graphics remained the same, but I built the website with a new and modern design. 
+I made the website a mobile first design, because 65% of HealthSlate customers use their mobile as their primary access to the internet. I created a dynamic drop down navigation menu, for mobile, and a nav bar across the top of the screen for larger screen users. 
 
-# README #
+I added several original pages including Partner With Us, Outcomes, and Coming Soon, each with different challenges. I added several web forms for current and potential customers to communicate with HealthSlate.  Each web form is linked to a Form Spree for fast and seamless communication between the website and the marketing team. 
 
-Use metalsmith with custom plugin to read video hierrachy from Contentful and create static pages for low end browser supported video player pages
-
-### What is this repository for? ###
-
-* good example of static page generation for future reference
-* Umass compatible video content
-
-
-### How do I get set up? ###
-
-* node_modules/metalsmith/bin/metalsmith 
-* runs 'CLI metalsmith' -- probably be good to convert to coded metalsmith
-* metalsmith.json
-
-
-Jared
+## Built With
+* [MetalSmith.js](http://www.metalsmith.io/)
+* HTML/CSS/javascrip 
+* CSS Flexbox
+* [FormSpree] (https://formspree.io/) For all of the forms
